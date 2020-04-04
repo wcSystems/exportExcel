@@ -1,0 +1,1183 @@
+<html><body>
+<b>BNC - Banco Nacional de Crédito, C.A. Banco Universal</b><br>
+<br>
+<b>CODIGOS Y TIPOS DE TRANSACCIONES</b><br>
+<br>
+<br>
+<table border=1><tr align=center><td><b>Cod. Transacción</b></td><td><b>Tipo Transacción</b></td><td><b>Descripción</b></td></tr>
+<tr><td>109</td><td>PROVEE</td><td>Emision de Chq.Gcia.Proveedor </td></tr>
+<tr><td>110</td><td>CARGO </td><td>Rev.Cargo en Cta Cheq.Gcia    </td></tr>
+<tr><td>110</td><td>PROVEE</td><td>Rev.Emision Chq.Gcia.Proveedor</td></tr>
+<tr><td>112</td><td>CARGO </td><td>Cargo en Cta Ch Gerencia      </td></tr>
+<tr><td>112</td><td>IMPCHQ</td><td>Ch.Pag.Impues.Nacio.Ch.BNC    </td></tr>
+<tr><td>112</td><td>IMPUES</td><td>Ch.Pag.impuestos nacionales   </td></tr>
+<tr><td>114</td><td>      </td><td>Adqui. de Ch por canje        </td></tr>
+<tr><td>116</td><td>CARGO </td><td>Rv.Cargo en Cta Ch Gerencia   </td></tr>
+<tr><td>116</td><td>IMPUES</td><td>Rv.Ch.Pag.impuestos nacionales</td></tr>
+<tr><td>119</td><td>      </td><td>Abono en Cta. Proveedor O.Pago</td></tr>
+<tr><td>119</td><td>PROVEE</td><td>Abono en Cta. Proveedor O.Pago</td></tr>
+<tr><td>119</td><td>REVERS</td><td>Pago de Proveedores           </td></tr>
+<tr><td>119</td><td>REVPRO</td><td>Rev.Abono en Cta.Proveedor    </td></tr>
+<tr><td>123</td><td>CARCER</td><td>Cargo por Apertura DPF        </td></tr>
+<tr><td>131</td><td>      </td><td>Rev Aporte Anticipado Acciones</td></tr>
+<tr><td>131</td><td>RACAEM</td><td>Rev Aporte Anticipado Acciones</td></tr>
+<tr><td>131</td><td>RACAOT</td><td>Rev Aporte Anticipado Acciones</td></tr>
+<tr><td>131</td><td>RACCEM</td><td>Rv.Aport.Patri.Pend.Capitaliz.</td></tr>
+<tr><td>131</td><td>REVACC</td><td>Rv.Aport.Patri.Pend.Capitaliz.</td></tr>
+<tr><td>132</td><td>      </td><td>Cargo en cuenta pago de accion</td></tr>
+<tr><td>132</td><td>01    </td><td>Cargo en cuenta pago de accion</td></tr>
+<tr><td>132</td><td>CACAEM</td><td>Aporte Anticipado Acciones    </td></tr>
+<tr><td>132</td><td>CACAOT</td><td>Aporte Anticipado Acciones    </td></tr>
+<tr><td>132</td><td>CACCEM</td><td>Cg.Aport.Patri.Pend.Capit.Empl</td></tr>
+<tr><td>132</td><td>Cod   </td><td>Cargo en cuenta pago de accion</td></tr>
+<tr><td>132</td><td>COMACC</td><td>Cg.Aport.Patri.Pend.Capitaliz.</td></tr>
+<tr><td>132</td><td>ORDEN </td><td>Cargo en cuenta pago de accion</td></tr>
+<tr><td>140</td><td>      </td><td>Depósito                      </td></tr>
+<tr><td>141</td><td>      </td><td>Depósito en efectivo          </td></tr>
+<tr><td>142</td><td>      </td><td>Depósito en Cheque            </td></tr>
+<tr><td>143</td><td>      </td><td>Depósito con libreta          </td></tr>
+<tr><td>144</td><td>      </td><td>Depósito Efectivo con libreta </td></tr>
+<tr><td>145</td><td>      </td><td>Depósito cheque con libreta   </td></tr>
+<tr><td>148</td><td>      </td><td>Dep./ATM en efectivo          </td></tr>
+<tr><td>148</td><td>BOVEDA</td><td>Dep./ATM en efectivo          </td></tr>
+<tr><td>150</td><td>      </td><td>Depósito en Cheque Multifunci.</td></tr>
+<tr><td>150</td><td>BOVEDA</td><td>Depósitos Cta.Cte.Multifunc.  </td></tr>
+<tr><td>153</td><td>COMPEN</td><td>Cheques Enviados a Compensacio</td></tr>
+<tr><td>154</td><td>ABONDO</td><td>Abono Traspaso Us$            </td></tr>
+<tr><td>154</td><td>ABONEU</td><td>Abono Traspaso Euros          </td></tr>
+<tr><td>154</td><td>RETEUR</td><td>Deposito Efect.Euros          </td></tr>
+<tr><td>154</td><td>VTAMCD</td><td>Venta Mesa de Cambio Us$      </td></tr>
+<tr><td>187</td><td>      </td><td>Depósito pago TDC priv. Cheque</td></tr>
+<tr><td>187</td><td>ABPGMN</td><td>Abono Pago Minimo TDC Digitel </td></tr>
+<tr><td>187</td><td>CARTAR</td><td>Cargo en Cta.Pago tarjeta priv</td></tr>
+<tr><td>187</td><td>PAGMIN</td><td>Cargo Pago Minimo TDC Digitel </td></tr>
+<tr><td>187</td><td>RVCRTA</td><td>Rv.Cargo Cta.Pago tarjeta priv</td></tr>
+<tr><td>187</td><td>RVTAR </td><td>Reversa Depósito en Cheque TP </td></tr>
+<tr><td>189</td><td>ABONO </td><td>Transf. Pago Tarjeta Credito  </td></tr>
+<tr><td>189</td><td>CARGO </td><td>Transf. Pago Tarjeta Credito  </td></tr>
+<tr><td>189</td><td>RVCRGO</td><td>Rev.Pago Tarjeta Credito      </td></tr>
+<tr><td>191</td><td>      </td><td>Depósito                      </td></tr>
+<tr><td>193</td><td>      </td><td>Depósito Impuest. Munic.      </td></tr>
+<tr><td>195</td><td>ABACRE</td><td>Abono Cta.Acreed.Oper.de Credi</td></tr>
+<tr><td>195</td><td>ABCCHD</td><td>Reverso Comis.Cheq.Devuelto   </td></tr>
+<tr><td>195</td><td>ABCEIT</td><td>Abono Inter.Certf.Dep. no neg.</td></tr>
+<tr><td>195</td><td>ABCER </td><td>Abono Reverso Apertura DPF    </td></tr>
+<tr><td>195</td><td>ABCERN</td><td>Abono Certf.Dep. no negociable</td></tr>
+<tr><td>195</td><td>ABCTCV</td><td>Abono P/Consumos d/TDC Visa   </td></tr>
+<tr><td>195</td><td>ABCTDC</td><td>Abono P/Consumos de T.D.C     </td></tr>
+<tr><td>195</td><td>ABCTDM</td><td>Abono Cons.Tarj.Cirrus Maestro</td></tr>
+<tr><td>195</td><td>ABCTTE</td><td>Abono.Cta.Acreed.Op.Tesoreria </td></tr>
+<tr><td>195</td><td>ABDEFU</td><td>Abono RRHH clausula defunsion </td></tr>
+<tr><td>195</td><td>ABDPPV</td><td>Abono Dev. Liq. Depos. Previo </td></tr>
+<tr><td>195</td><td>ABFAOV</td><td>Abono p/Intermediacion FAOV   </td></tr>
+<tr><td>195</td><td>ABMENU</td><td>Abono Compra Divisa Menudeo   </td></tr>
+<tr><td>195</td><td>ABNACI</td><td>Abono RRHH clausula Nacimiento</td></tr>
+<tr><td>195</td><td>ABNCRD</td><td>Abono por Liquidación Crédito </td></tr>
+<tr><td>195</td><td>ABNLPM</td><td>Abono Liquidación Plan Mayor  </td></tr>
+<tr><td>195</td><td>ABNMAS</td><td>Abn por Cartera cedida Master </td></tr>
+<tr><td>195</td><td>ABNPTM</td><td>Abono RRHH Ptm especial       </td></tr>
+<tr><td>195</td><td>ABNSEC</td><td>Abono Contrato Fza Jud. P/sec </td></tr>
+<tr><td>195</td><td>ABNVIS</td><td>Abn por Cartera cedida Visa   </td></tr>
+<tr><td>195</td><td>ABOBC1</td><td>Abono Credito Directo - BCV   </td></tr>
+<tr><td>195</td><td>ABOBC2</td><td>Abono Camara Compensacion     </td></tr>
+<tr><td>195</td><td>ABOBC3</td><td>Abono LBTR - BCV              </td></tr>
+<tr><td>195</td><td>ABOBCV</td><td>Abono Transferencia Via BCV   </td></tr>
+<tr><td>195</td><td>ABOBV2</td><td>Abono Transferencia Via BCV   </td></tr>
+<tr><td>195</td><td>ABOCAF</td><td>Abono Cafetin                 </td></tr>
+<tr><td>195</td><td>ABOCHG</td><td>Abono Extravio Cheque Gerencia</td></tr>
+<tr><td>195</td><td>ABODEP</td><td>Abono p/deposito no efectuado </td></tr>
+<tr><td>195</td><td>ABODIV</td><td>Abono Dividendos de Acciones  </td></tr>
+<tr><td>195</td><td>ABODOM</td><td>Abono Domiciliacion           </td></tr>
+<tr><td>195</td><td>ABOFAO</td><td>Abono por Avaluo FAOV         </td></tr>
+<tr><td>195</td><td>ABOINT</td><td>Abono Interes Especial        </td></tr>
+<tr><td>195</td><td>ABOPOI</td><td>Abono Poliza Incendio p/Cobrar</td></tr>
+<tr><td>195</td><td>ABOPOV</td><td>Abono Poliza de Vida p/Cobrar </td></tr>
+<tr><td>195</td><td>ABOPRI</td><td>Abono Primas                  </td></tr>
+<tr><td>195</td><td>ABORHH</td><td>Otros Abonos RRHH             </td></tr>
+<tr><td>195</td><td>ABOTAF</td><td>Abono P/Tenencia Activo Financ</td></tr>
+<tr><td>195</td><td>ABOTAX</td><td>Abono Taxis                   </td></tr>
+<tr><td>195</td><td>ABOTIN</td><td>Abono Gastos de Tintoreria    </td></tr>
+<tr><td>195</td><td>ABOUSD</td><td>Abono por Compra de Divisas   </td></tr>
+<tr><td>195</td><td>ABRCLP</td><td>Faltante en ATM por TDD       </td></tr>
+<tr><td>195</td><td>ABSIND</td><td>Abono Aporte Banco Sindicato  </td></tr>
+<tr><td>195</td><td>ABTDDG</td><td>Abono Tarjeta Privada Digitel </td></tr>
+<tr><td>195</td><td>ABTI15</td><td>Abonos en Cuenta              </td></tr>
+<tr><td>195</td><td>ABVE14</td><td>Abonos en Cuenta              </td></tr>
+<tr><td>195</td><td>ABVE15</td><td>Abonos en Cuenta              </td></tr>
+<tr><td>195</td><td>AJDEP+</td><td>Ajuste Deposito x Prueba Chequ</td></tr>
+<tr><td>195</td><td>ALADI </td><td>Abono Venta Divisa Aladi      </td></tr>
+<tr><td>195</td><td>ANTFID</td><td>Abono por Anticipo Fideicomiso</td></tr>
+<tr><td>195</td><td>APCERN</td><td>Abno.Certif.Dep. no negociable</td></tr>
+<tr><td>195</td><td>APOFID</td><td>Abono Aporte de Fideicomiso   </td></tr>
+<tr><td>195</td><td>APOLIN</td><td>Abono Poliza Incendio         </td></tr>
+<tr><td>195</td><td>APOLIV</td><td>Abono Poliza Vida             </td></tr>
+<tr><td>195</td><td>BNCBNC</td><td>Abono por Reclamo de Cajeros  </td></tr>
+<tr><td>195</td><td>BNCPOS</td><td>Abono por Reclamo BNC a POS   </td></tr>
+<tr><td>195</td><td>CAFIGA</td><td>Rev. Cargo p/Fianza en Garant.</td></tr>
+<tr><td>195</td><td>CCOMRB</td><td>Rev cgo Com.Refer Bancaria    </td></tr>
+<tr><td>195</td><td>CCSERE</td><td>Abono Servicio Recaudacion    </td></tr>
+<tr><td>195</td><td>CGCA01</td><td>Rev.Cart.Cred.Revis.Documentos</td></tr>
+<tr><td>195</td><td>CGCA03</td><td>Rev.Carta Cred. Comis. Reemb. </td></tr>
+<tr><td>195</td><td>CGCA04</td><td>Rev.Carta Cred. Gastos Swift  </td></tr>
+<tr><td>195</td><td>CGCA05</td><td>Rev.Carta Cred. Gastos Correo </td></tr>
+<tr><td>195</td><td>CGCA06</td><td>Rev.Carta Cred. Comis.Tramit. </td></tr>
+<tr><td>195</td><td>CGCA07</td><td>Rev.Carta Cred. Intereses Mora</td></tr>
+<tr><td>195</td><td>CGCA08</td><td>Rev.Carta Cred.Cobra.Document.</td></tr>
+<tr><td>195</td><td>CGCA09</td><td>Rev.Carta Cred. Apertura      </td></tr>
+<tr><td>195</td><td>CGCA10</td><td>Rev.Carta Cred. Modificacion  </td></tr>
+<tr><td>195</td><td>CGCANC</td><td>REVERSO CANCELACION ANTIPADA  </td></tr>
+<tr><td>195</td><td>CGCMEL</td><td>Rev.Cargo Comis. Extr. Libreta</td></tr>
+<tr><td>195</td><td>CHKDEV</td><td>Reverso Cheque Devuelto       </td></tr>
+<tr><td>195</td><td>CHQGCI</td><td>Abono Cheques Ger.Devuelto    </td></tr>
+<tr><td>195</td><td>CJAAHE</td><td>Abono Aport Caj de Ahorr Empl.</td></tr>
+<tr><td>195</td><td>CJAAHO</td><td>Abono Aport Caj de Ahorr Patr.</td></tr>
+<tr><td>195</td><td>COMFAD</td><td>Rev Com. Fideicom de Administ.</td></tr>
+<tr><td>195</td><td>COMFAO</td><td>Rev Com. Recupera Credito FAOV</td></tr>
+<tr><td>195</td><td>COMFIN</td><td>Rev Com. Fideicom de Inversion</td></tr>
+<tr><td>195</td><td>COMGRT</td><td>Rev Com. Fideicom de Garantia </td></tr>
+<tr><td>195</td><td>COMLAB</td><td>Rev Com. Fideic.Adm.Indemn.Lab</td></tr>
+<tr><td>195</td><td>COMNOM</td><td>REV.Cargo por Com.Trans Nomin </td></tr>
+<tr><td>195</td><td>COPCOB</td><td>Abono Por Operac.Por Cobrar   </td></tr>
+<tr><td>195</td><td>CPADPN</td><td>Abono por Compra de D.P.N.    </td></tr>
+<tr><td>195</td><td>CREDIT</td><td>Reverso Cobro de Credito      </td></tr>
+<tr><td>195</td><td>CRGAMO</td><td>Rev.Cargo Liq. Subrogación    </td></tr>
+<tr><td>195</td><td>CRGFON</td><td>Rev.Cuota X Cobrar Pend.FONGAR</td></tr>
+<tr><td>195</td><td>DETANE</td><td>VER DETALLE ANEXO             </td></tr>
+<tr><td>195</td><td>DIETA </td><td>Abono a Ctas.Dietas Directores</td></tr>
+<tr><td>195</td><td>DIFSOB</td><td>Abono por diferencia sobrante </td></tr>
+<tr><td>195</td><td>EDOCTA</td><td>Rev. Comisión Envio Edo. Cta. </td></tr>
+<tr><td>195</td><td>GTONOC</td><td>Gastos de Notaria por Cobrar  </td></tr>
+<tr><td>195</td><td>GTONOT</td><td>Gastos de Notaria por Pagar   </td></tr>
+<tr><td>195</td><td>IMPREI</td><td>Abono Impuesto a Reintegrar   </td></tr>
+<tr><td>195</td><td>INCAOP</td><td>Intereses Canc.x Antic.OPA    </td></tr>
+<tr><td>195</td><td>INCFID</td><td>Abono Capitalizacion Int. Fid.</td></tr>
+<tr><td>195</td><td>INIPOL</td><td>Rev.Inicial Poliza Empleados  </td></tr>
+<tr><td>195</td><td>INTFID</td><td>Deposito Intereses Fideicomiso</td></tr>
+<tr><td>195</td><td>LIFAOV</td><td>Abon.Liq.Cr.FAOV s/rec.BANAVIH</td></tr>
+<tr><td>195</td><td>LIQFID</td><td>Abono por Liquidacion Fideicom</td></tr>
+<tr><td>195</td><td>NOMAUT</td><td>Abono a Ctas.Antic.Utilidades </td></tr>
+<tr><td>195</td><td>NOMCON</td><td>Abono Nomina RRHH Contratados </td></tr>
+<tr><td>195</td><td>NOMEXT</td><td>Abono por Nomina Externa      </td></tr>
+<tr><td>195</td><td>NOMINA</td><td>Abono a Ctas.Nomina por RRHH  </td></tr>
+<tr><td>195</td><td>NOMOPE</td><td>Abono Operaciones por Cobrar  </td></tr>
+<tr><td>195</td><td>NOTACR</td><td>Nota de Credito en Cuenta     </td></tr>
+<tr><td>195</td><td>ONRTDD</td><td>ONR en Trámites TDD           </td></tr>
+<tr><td>195</td><td>OTINEX</td><td>Reverso Otros Ingresos Extr.  </td></tr>
+<tr><td>195</td><td>P2PRCL</td><td>Abono por Reclamo P2P         </td></tr>
+<tr><td>195</td><td>PERCLT</td><td>Perdidas Realizadas Clte.     </td></tr>
+<tr><td>195</td><td>PERDID</td><td>Perdidas Realizadas           </td></tr>
+<tr><td>195</td><td>PERRRH</td><td>Perdidas Realizadas Empledo   </td></tr>
+<tr><td>195</td><td>PGOTRO</td><td>Reverso Cargo Pagos Otros     </td></tr>
+<tr><td>195</td><td>PLANME</td><td>Plan Menor                    </td></tr>
+<tr><td>195</td><td>POVIIN</td><td>Rev.Poliza Vida/Incendio Empl.</td></tr>
+<tr><td>195</td><td>PPVORI</td><td>Rev Prim Pol VehicP/PagarORIEN</td></tr>
+<tr><td>195</td><td>PRTFID</td><td>Abono por Prestamo Fideicomiso</td></tr>
+<tr><td>195</td><td>RCIVSS</td><td>Rv.Crg Comision Pensiones IVSS</td></tr>
+<tr><td>195</td><td>RCRECL</td><td>Rev. Cargo Remesa Cliente     </td></tr>
+<tr><td>195</td><td>RECGEF</td><td>Reint.Cargos Efectuados TDD   </td></tr>
+<tr><td>195</td><td>RECNPR</td><td>Abono por Reclamo             </td></tr>
+<tr><td>195</td><td>REICOM</td><td>Reint.a Clientes Oper.Call    </td></tr>
+<tr><td>195</td><td>REIINT</td><td>Abono Intereses DPF           </td></tr>
+<tr><td>195</td><td>REIITF</td><td>Reintegra ITF                 </td></tr>
+<tr><td>195</td><td>REIMEA</td><td>Reverso Comision ATM Mes Anter</td></tr>
+<tr><td>195</td><td>REIMRA</td><td>Reint.Interes de Mora Cobrada </td></tr>
+<tr><td>195</td><td>REIUSD</td><td>Reint.por Venta de Divisas    </td></tr>
+<tr><td>195</td><td>REMADM</td><td>Remun. Fideicomisos Administr.</td></tr>
+<tr><td>195</td><td>REMFIN</td><td>Remun. Fideicomisos Inversion </td></tr>
+<tr><td>195</td><td>REMLAB</td><td>Remun.Fideic.Adm.Indem.Laboral</td></tr>
+<tr><td>195</td><td>REMTER</td><td>Remun. Fideicomisos P.Terceros</td></tr>
+<tr><td>195</td><td>RETFID</td><td>Abono por Retiro Fideicomiso  </td></tr>
+<tr><td>195</td><td>REVALA</td><td>Reverso por Op.Import.ALADI   </td></tr>
+<tr><td>195</td><td>REVATF</td><td>Rever cargo Gtos Asesoría T-F </td></tr>
+<tr><td>195</td><td>REVCAL</td><td>Rev.Comision Op.Import.ALADI  </td></tr>
+<tr><td>195</td><td>REVCCC</td><td>Reverso Comision Corte de Cta.</td></tr>
+<tr><td>195</td><td>REVCCD</td><td>Rev.Comis.P/Cobranza Documenta</td></tr>
+<tr><td>195</td><td>REVCCG</td><td>Reintegro Comision Cheq.Gcia  </td></tr>
+<tr><td>195</td><td>REVCEF</td><td>Reverso Cargos Efectuados     </td></tr>
+<tr><td>195</td><td>REVCF2</td><td>Reverso Comis.Flat Plan Mayor </td></tr>
+<tr><td>195</td><td>REVCFC</td><td>Reverso Comis.Flat Credito    </td></tr>
+<tr><td>195</td><td>REVCFD</td><td>Reverso Comis.Flat Cred Desc  </td></tr>
+<tr><td>195</td><td>REVCGE</td><td>Reverso Gtos.Legal.de Est.Juri</td></tr>
+<tr><td>195</td><td>REVCHP</td><td>Reverso Cargo por Cheque Pagad</td></tr>
+<tr><td>195</td><td>REVCME</td><td>Rev.Comis.Manejo de Efectivo  </td></tr>
+<tr><td>195</td><td>REVCOM</td><td>reverso compra Cheq.Gcia      </td></tr>
+<tr><td>195</td><td>REVCOT</td><td>Reverso Otras Comis.no Financi</td></tr>
+<tr><td>195</td><td>REVCSP</td><td>Rev.Comis.Saldo Minimo Promedi</td></tr>
+<tr><td>195</td><td>REVCTR</td><td>Reint.Comis.por Tranferencia  </td></tr>
+<tr><td>195</td><td>REVDOC</td><td>Rever cargo Gtos Docum Credito</td></tr>
+<tr><td>195</td><td>REVDPN</td><td>Rev.Cargo Compra de Bonos     </td></tr>
+<tr><td>195</td><td>REVEMP</td><td>Rev Prestamo Empleados BNC    </td></tr>
+<tr><td>195</td><td>REVFAG</td><td>Cargo Comis.Flat Cred Agrícola</td></tr>
+<tr><td>195</td><td>REVFMA</td><td>Rever Comis.Flat Cred Manufact</td></tr>
+<tr><td>195</td><td>REVFMI</td><td>Rever Comis.Flat Cred Microcre</td></tr>
+<tr><td>195</td><td>REVIMI</td><td>Rev.Comis.Int.Mora Incump.Oper</td></tr>
+<tr><td>195</td><td>REVLCD</td><td>Rever cargo Gtos Docum LCC    </td></tr>
+<tr><td>195</td><td>REVLCF</td><td>Rever cargo Comis.Flat LCC    </td></tr>
+<tr><td>195</td><td>REVLCM</td><td>Rever Cargo Gtos Manten LCC   </td></tr>
+<tr><td>195</td><td>REVLCR</td><td>Reverso Cargo P/Cartas Credito</td></tr>
+<tr><td>195</td><td>REVPTC</td><td>Reverso Cargo Pago T.D.C.     </td></tr>
+<tr><td>195</td><td>REVRSL</td><td>Reverso Cargo Ret.Cta.Sin Libr</td></tr>
+<tr><td>195</td><td>REVTIM</td><td>Reverso Timbre Fiscal         </td></tr>
+<tr><td>195</td><td>RINONI</td><td>Reint.por Operac.no Identif.  </td></tr>
+<tr><td>195</td><td>RINTCR</td><td>Reint.Intereses de Cartera    </td></tr>
+<tr><td>195</td><td>RINTSO</td><td>Rv.Intereses por Sobregiro    </td></tr>
+<tr><td>195</td><td>RINTUT</td><td>Rv.Intereses uso diferido     </td></tr>
+<tr><td>195</td><td>RVABML</td><td>Abono sin registrar(Ver Nota) </td></tr>
+<tr><td>195</td><td>RVCARG</td><td>Rev.Cargo Efectuado           </td></tr>
+<tr><td>195</td><td>RVCATF</td><td>Rever cargo Gtos Ases T-F cred</td></tr>
+<tr><td>195</td><td>RVCBIM</td><td>Rev.de I.S.L.R. Indebido      </td></tr>
+<tr><td>195</td><td>RVCFZA</td><td>Reverso Comision de Fianza    </td></tr>
+<tr><td>195</td><td>RVCGCM</td><td>Reverso Comision Comp. Bonos  </td></tr>
+<tr><td>195</td><td>RVCGEM</td><td>RV.Cargo Prest.Empleados BNC  </td></tr>
+<tr><td>195</td><td>RVCGPV</td><td>Reverso Compra PETROBONOS     </td></tr>
+<tr><td>195</td><td>RVCMCH</td><td>REV.COSTO CHQ ALTO VALOR - UAP</td></tr>
+<tr><td>195</td><td>RVCMLB</td><td>REV.COSTO TRSF.ALTO VALOR-LBTR</td></tr>
+<tr><td>195</td><td>RVCMSL</td><td>Reint.Comis.Mant.Ctas.        </td></tr>
+<tr><td>195</td><td>RVCOMI</td><td>RV.Cargo Comision Compra DPN  </td></tr>
+<tr><td>195</td><td>RVCTDC</td><td>Rev.de I.S.L.R. Ventas TDC    </td></tr>
+<tr><td>195</td><td>RVDEPO</td><td>Abono Deposito Reversado      </td></tr>
+<tr><td>195</td><td>RVENCH</td><td>Reint.Comis.Entrega de Chequer</td></tr>
+<tr><td>195</td><td>RVFID1</td><td>Rev. Cargo Comis.Flat Fideicom</td></tr>
+<tr><td>195</td><td>RVISLR</td><td>Rev.de I.S.L.R. Cobrado Incor.</td></tr>
+<tr><td>195</td><td>SUIC7B</td><td>Abonos en Cuenta              </td></tr>
+<tr><td>195</td><td>SUIH7B</td><td>Abono por Reclamo Suiche7b    </td></tr>
+<tr><td>195</td><td>TRAFID</td><td>Tranf. Constituye Fideicomiso </td></tr>
+<tr><td>195</td><td>TRBCVE</td><td>Reverso Cargo Transf.via BCV  </td></tr>
+<tr><td>195</td><td>VALFID</td><td>Abono X Valuacion Fideicomiso </td></tr>
+<tr><td>195</td><td>VENEPA</td><td>Abono Especial para Venepal   </td></tr>
+<tr><td>196</td><td>ABACRE</td><td>Abono Cta.Acreed.Oper.de Credi</td></tr>
+<tr><td>196</td><td>ABCAST</td><td>Castigo Cuentas Sobregiradas  </td></tr>
+<tr><td>196</td><td>ABCHAD</td><td>Abono Cheque Rec. Oper. Adm.  </td></tr>
+<tr><td>196</td><td>ABCOME</td><td>Abono Comercio por Regu. TDD  </td></tr>
+<tr><td>196</td><td>ABCORC</td><td>Abono Cobranzas Recuperaciones</td></tr>
+<tr><td>196</td><td>ABCPAC</td><td>Abono por/Compra de Acciones  </td></tr>
+<tr><td>196</td><td>ABDFIN</td><td>Abono Diferncia Intereses     </td></tr>
+<tr><td>196</td><td>ABDPGA</td><td>Abono Deposito Garantia Suc.  </td></tr>
+<tr><td>196</td><td>ABEROP</td><td>Abono Reclamo Error Operativo </td></tr>
+<tr><td>196</td><td>ABESTC</td><td>Abono Especial Operac. Tarj.Cr</td></tr>
+<tr><td>196</td><td>ABESTV</td><td>Abono Esp.Operac.TDC-Visa     </td></tr>
+<tr><td>196</td><td>ABNPRE</td><td>Abono Recuperacion Preca      </td></tr>
+<tr><td>196</td><td>ABOCAN</td><td>Abono Cancelacion Sobregiro   </td></tr>
+<tr><td>196</td><td>ABOCOC</td><td>Abono Comercio por Tarjeta Cre</td></tr>
+<tr><td>196</td><td>ABOEUR</td><td>Abono Compra de Euros         </td></tr>
+<tr><td>196</td><td>ABOMNF</td><td>Ab.Dif. Int.Antic.Manufactura </td></tr>
+<tr><td>196</td><td>ABONDO</td><td>Abono Traspasa Dolares        </td></tr>
+<tr><td>196</td><td>ABONMC</td><td>Abono Operación Mesa de Cambio</td></tr>
+<tr><td>196</td><td>ABOPIP</td><td>Abono Pago IPTOTE Regulariza  </td></tr>
+<tr><td>196</td><td>ABOREC</td><td>Abono Reintegro de Interes    </td></tr>
+<tr><td>196</td><td>ABOREG</td><td>Reg. Saldo Cta Cancelada      </td></tr>
+<tr><td>196</td><td>ABPGCH</td><td>Abono Pago Errado Cheques     </td></tr>
+<tr><td>196</td><td>ABRECL</td><td>Abono Especial por Reclamo    </td></tr>
+<tr><td>196</td><td>ABREIN</td><td>Abono Reintegro de Interes    </td></tr>
+<tr><td>196</td><td>ABSBCO</td><td>Abono Sobrante CORPOELEC      </td></tr>
+<tr><td>196</td><td>AVANCE</td><td>Abono por avance de efectivo  </td></tr>
+<tr><td>196</td><td>BNCPOS</td><td>Abonos en Cuenta              </td></tr>
+<tr><td>196</td><td>BONIFI</td><td>Abono Bonificacion Funcionario</td></tr>
+<tr><td>196</td><td>BONTDC</td><td>Abono Bonos TDC               </td></tr>
+<tr><td>196</td><td>CANCEL</td><td>Abono para Cancelacion        </td></tr>
+<tr><td>196</td><td>CANINT</td><td>Cancelacion de Intereses      </td></tr>
+<tr><td>196</td><td>CAPGGA</td><td>Rev.Cargo Pag Ganan.Port.Priv.</td></tr>
+<tr><td>196</td><td>CISLRF</td><td>Rev.Cargo ISLR Valuac. Fideic.</td></tr>
+<tr><td>196</td><td>COBSOB</td><td>Rev. Comision Otorg.Sobregiro </td></tr>
+<tr><td>196</td><td>COMADM</td><td>REV COMISION GTOS ADM PRORROGA</td></tr>
+<tr><td>196</td><td>COMAGR</td><td>Rev,Com. Agricola Gaceta 40376</td></tr>
+<tr><td>196</td><td>COMFRA</td><td>Partidas por Aplicar Comerc. F</td></tr>
+<tr><td>196</td><td>CONEFE</td><td>Abono Reclamo Conteo de Efecti</td></tr>
+<tr><td>196</td><td>CONTRE</td><td>Contracargo recibido TD Maestr</td></tr>
+<tr><td>196</td><td>CORRES</td><td>Abono Cta.via Corresponsal    </td></tr>
+<tr><td>196</td><td>CPPPOS</td><td>Rv Cobro de Equipos Pos       </td></tr>
+<tr><td>196</td><td>DEPEUR</td><td>Deposito Euros en Efectivo    </td></tr>
+<tr><td>196</td><td>DEVIVA</td><td>Devolucion IVA Arrendamiento  </td></tr>
+<tr><td>196</td><td>DTDPSR</td><td>Diferencial Tasa Dcto POS R   </td></tr>
+<tr><td>196</td><td>FIDEIC</td><td>Abono Cta Fideicomiso (Func.) </td></tr>
+<tr><td>196</td><td>FIDICE</td><td>Abono Cta Fideicomiso (Empl.) </td></tr>
+<tr><td>196</td><td>FLATPM</td><td>Abono Comision FLAT Plan Mayor</td></tr>
+<tr><td>196</td><td>INTABO</td><td>Ints. mensual de su cuenta    </td></tr>
+<tr><td>196</td><td>IVAARR</td><td>Abono IVA Arrendamiento       </td></tr>
+<tr><td>196</td><td>LIQCRD</td><td>LIQUIDACION CREDITO           </td></tr>
+<tr><td>196</td><td>OXPIFI</td><td>Oblig x pagar a Inst.Financ.  </td></tr>
+<tr><td>196</td><td>PENSAL</td><td>Abono Pensiòn Alimenticia     </td></tr>
+<tr><td>196</td><td>REIVSC</td><td>Reint. Ivss Ctas Inactivas 2% </td></tr>
+<tr><td>196</td><td>REIVSS</td><td>Reintegro Ivss Ctas Inactivas </td></tr>
+<tr><td>196</td><td>RVABTE</td><td>Reinte. Transferencia Anulada </td></tr>
+<tr><td>196</td><td>RVCGEM</td><td>Rev. Cargo Cobranza Empleados </td></tr>
+<tr><td>196</td><td>RVCMDT</td><td>Reversa Comision Directv      </td></tr>
+<tr><td>196</td><td>RVIMPM</td><td>Rv.Cargo Impuestos Municipales</td></tr>
+<tr><td>197</td><td>BNCPOS</td><td>Ingresos a caja               </td></tr>
+<tr><td>198</td><td>ABCNTV</td><td>Abono Recaudacion CANTV Event.</td></tr>
+<tr><td>198</td><td>ABONO </td><td>Transferencia entre Ctas.     </td></tr>
+<tr><td>198</td><td>BNCPOS</td><td>Traspaso entre Cuentas        </td></tr>
+<tr><td>198</td><td>CARGO </td><td>Transferencia entre Ctas.     </td></tr>
+<tr><td>198</td><td>CGCNTV</td><td>Cargo CANTV Pago no Registrado</td></tr>
+<tr><td>199</td><td>BNCPOS</td><td>Solicitud Traspaso entre Cuent</td></tr>
+<tr><td>200</td><td>BNCPOS</td><td>Ingreso caja cuenta acreedores</td></tr>
+<tr><td>201</td><td>BNCPOS</td><td>Compra de Divisa              </td></tr>
+<tr><td>202</td><td>CARGO </td><td>Cargo por Venta de Divisas    </td></tr>
+<tr><td>202</td><td>CARGOE</td><td>Cargo por Venta de Divisas    </td></tr>
+<tr><td>205</td><td>      </td><td>Retiro de Cuentas Ahorro      </td></tr>
+<tr><td>214</td><td>      </td><td>Imprime Cheque de Gerencia OP(</td></tr>
+<tr><td>221</td><td>      </td><td>Retiro de Cuentas Ahorro      </td></tr>
+<tr><td>222</td><td>ABESTC</td><td>Rev Abono Esp.Operac. Tarj.Cr </td></tr>
+<tr><td>222</td><td>ABESTV</td><td>Rev Abono Esp.Operac.TDC-Visa </td></tr>
+<tr><td>222</td><td>CABCAP</td><td>Cg.Aport.Patri.Pend.Capitaliz.</td></tr>
+<tr><td>222</td><td>CAMPRA</td><td>Cargo p/Amort. Prest.Acciones </td></tr>
+<tr><td>222</td><td>CANINT</td><td>REV.Cancelacion de Intereses  </td></tr>
+<tr><td>222</td><td>CANTV </td><td>Comision Servicios en Linea   </td></tr>
+<tr><td>222</td><td>CAPGGA</td><td>Cargo Pago Ganan.Port.Privado </td></tr>
+<tr><td>222</td><td>CARGDO</td><td>Cargo Traspasa Dolares        </td></tr>
+<tr><td>222</td><td>CARGEU</td><td>Cargo Traspasa Euros          </td></tr>
+<tr><td>222</td><td>CARGMC</td><td>Cargo Operación Mesa De Cambio</td></tr>
+<tr><td>222</td><td>CARGOE</td><td>Cargo Especial Crédito RRHH.  </td></tr>
+<tr><td>222</td><td>CESION</td><td>Cobranza por Cesion           </td></tr>
+<tr><td>222</td><td>CGCBEM</td><td>Cargo Cobranza Empleados      </td></tr>
+<tr><td>222</td><td>CGCORC</td><td>Cargo Cobranzas Recuperaciones</td></tr>
+<tr><td>222</td><td>CGCPAC</td><td>Cargo p/Compra de Acciones    </td></tr>
+<tr><td>222</td><td>CGDFIN</td><td>Cargo Diferncia Intereses     </td></tr>
+<tr><td>222</td><td>CGFLCO</td><td>Cargo Faltante CORPOELEC      </td></tr>
+<tr><td>222</td><td>CGRCGA</td><td>Cargo Recuperacion de Gastos  </td></tr>
+<tr><td>222</td><td>CGRECL</td><td>Rev Abono Especial Reclamos   </td></tr>
+<tr><td>222</td><td>CISLRA</td><td>Cargo ISLR Valuaciones Fideic.</td></tr>
+<tr><td>222</td><td>CISLRF</td><td>Cargo ISLR Valuaciones Fideic.</td></tr>
+<tr><td>222</td><td>CMPACC</td><td>Compra Acciones BNC 2011      </td></tr>
+<tr><td>222</td><td>COHIRE</td><td>Comision Hidrologia Region    </td></tr>
+<tr><td>222</td><td>COMADM</td><td>COMISION GTOS ADMINIS PRORROGA</td></tr>
+<tr><td>222</td><td>COMAGR</td><td>Comision Agricola Gaceta 40376</td></tr>
+<tr><td>222</td><td>COMATM</td><td>Comision Servicio ATM Corporat</td></tr>
+<tr><td>222</td><td>COMDIC</td><td>Comision Diferencial Cambiario</td></tr>
+<tr><td>222</td><td>COMEUR</td><td>Comision Intervenc.Cambiaria  </td></tr>
+<tr><td>222</td><td>COMFRA</td><td>Partidas por Aplicar Comerc. F</td></tr>
+<tr><td>222</td><td>COMIMC</td><td>Comision Mesa de Cambio       </td></tr>
+<tr><td>222</td><td>COMSOB</td><td>Comision Otorgamien. Sobregiro</td></tr>
+<tr><td>222</td><td>COMTVA</td><td>Comision Transporte Valores   </td></tr>
+<tr><td>222</td><td>CONTRE</td><td>Contracargo recibido TD Maestr</td></tr>
+<tr><td>222</td><td>CPPPOS</td><td>Cobro de Equipos Pos          </td></tr>
+<tr><td>222</td><td>CRGANE</td><td>Cargo segun Instrución Anexa  </td></tr>
+<tr><td>222</td><td>CRGCAN</td><td>Cargo Saldo Cta Cancelada     </td></tr>
+<tr><td>222</td><td>CRGECS</td><td>Cargo Estado de Cuenta SWIFT  </td></tr>
+<tr><td>222</td><td>CRGEUR</td><td>Cargo Compra Euros            </td></tr>
+<tr><td>222</td><td>CRGIVA</td><td>Cargo IVA                     </td></tr>
+<tr><td>222</td><td>CRGPIP</td><td>Cargo Pago IPTOTE Regulariza  </td></tr>
+<tr><td>222</td><td>CRGPRE</td><td>Cargo Recuperacion PRECA      </td></tr>
+<tr><td>222</td><td>CRGPTM</td><td>Cargo RRHH Ptm especial       </td></tr>
+<tr><td>222</td><td>CRGREG</td><td>Reg. Saldo Cta Cancelada      </td></tr>
+<tr><td>222</td><td>DTDPSR</td><td>Diferencial Tasa Dcto POS R   </td></tr>
+<tr><td>222</td><td>FIDEIC</td><td>Cargo Cta Fideicomiso (Func.) </td></tr>
+<tr><td>222</td><td>FLATPM</td><td>Cargo Comision FLAT Plan Mayor</td></tr>
+<tr><td>222</td><td>MANYDO</td><td>Cargo por Mant. y Documentac. </td></tr>
+<tr><td>222</td><td>PAGTDC</td><td>Cargo Pago TDC Privada        </td></tr>
+<tr><td>222</td><td>PERCLT</td><td>Crg.Perdidas Realizadas Clte. </td></tr>
+<tr><td>222</td><td>RETEUR</td><td>Retiro de Euros en Efectivo   </td></tr>
+<tr><td>222</td><td>RVABER</td><td>REV. ABO. ESPECIAL Reclamo tdc</td></tr>
+<tr><td>222</td><td>RVABTE</td><td>Cgo.Abono Enviado a Terceros  </td></tr>
+<tr><td>222</td><td>RVCOME</td><td>Cargo Comercio por Reg. TDD   </td></tr>
+<tr><td>223</td><td>      </td><td>Cheque Pagado                 </td></tr>
+<tr><td>224</td><td>CHQDEV</td><td>Devol. Cheque Otro Banco      </td></tr>
+<tr><td>225</td><td>      </td><td>Retiro TDD Taquilla           </td></tr>
+<tr><td>226</td><td>RVCAST</td><td>Rv.Cast.Cuentas Sobregiradas  </td></tr>
+<tr><td>227</td><td>ABCEIT</td><td>Rv.Abono Int.Certf.Dep.no neg.</td></tr>
+<tr><td>227</td><td>ABCTCV</td><td>Rev.Abono P/Consumos TDC Visa </td></tr>
+<tr><td>227</td><td>ABCTDC</td><td>Rev.Abono P/Consumos de T.D.C </td></tr>
+<tr><td>227</td><td>ABNCRD</td><td>Reverso Liquidación Crédito   </td></tr>
+<tr><td>227</td><td>ABOBC1</td><td>Rev.Abono Credito Directo BCV </td></tr>
+<tr><td>227</td><td>ABOBC2</td><td>Rev.Abono Camara Compensacion </td></tr>
+<tr><td>227</td><td>ABOBC3</td><td>Rev.Abono LBTR - BCV          </td></tr>
+<tr><td>227</td><td>ABOBCV</td><td>Rev.Abono Trans. Via BCV      </td></tr>
+<tr><td>227</td><td>ABORHH</td><td>Otros Abonos RRHH             </td></tr>
+<tr><td>227</td><td>ABOTIN</td><td>Rev.Abono Gastos de Tintoreria</td></tr>
+<tr><td>227</td><td>ABOUSD</td><td>Rev.Abono p/Compra de Divisas </td></tr>
+<tr><td>227</td><td>ABRCLP</td><td>Rev Faltante en ATM por TDD   </td></tr>
+<tr><td>227</td><td>ACCALA</td><td>Cargo Comis.Op.Import.ALADI   </td></tr>
+<tr><td>227</td><td>ACRALA</td><td>Cargo por Op.de Import.ALADI  </td></tr>
+<tr><td>227</td><td>AJDEP-</td><td>Ajusta DepósitoxPrueba Cheques</td></tr>
+<tr><td>227</td><td>ANTFID</td><td>Cargo por Anticipo Fideicomiso</td></tr>
+<tr><td>227</td><td>APCERN</td><td>Apert.Certf.Dep. no negociable</td></tr>
+<tr><td>227</td><td>APOFID</td><td>Cargo Aporte de Fideicomiso   </td></tr>
+<tr><td>227</td><td>ATFPLM</td><td>Cargo Gtos A.Tecn-F Plan Mayor</td></tr>
+<tr><td>227</td><td>BNCBNC</td><td>Rev. Abono Reclamo Cajeros    </td></tr>
+<tr><td>227</td><td>BNCPOS</td><td>Rev. Abono Reclamo BNC a POS  </td></tr>
+<tr><td>227</td><td>CAFIGA</td><td>Cargo por Fianza en Garantia  </td></tr>
+<tr><td>227</td><td>CAR228</td><td>Cargo por Cheque BNC          </td></tr>
+<tr><td>227</td><td>CARCER</td><td>Apertura Deposito a Plazo Fijo</td></tr>
+<tr><td>227</td><td>CARCOM</td><td>Comision por Gestion de Cobran</td></tr>
+<tr><td>227</td><td>CARFZA</td><td>Cargos Fianza VENEV           </td></tr>
+<tr><td>227</td><td>CARGCM</td><td>Comision Compr.Bonos          </td></tr>
+<tr><td>227</td><td>CARGOP</td><td>Compra Bonos                  </td></tr>
+<tr><td>227</td><td>CCCZAD</td><td>Cargo Comis.P/Cobranza Documen</td></tr>
+<tr><td>227</td><td>CCFIAN</td><td>Cargo por Comision de Fianza  </td></tr>
+<tr><td>227</td><td>CCISLR</td><td>Cargo por I.S.L.R. Int.Cta.   </td></tr>
+<tr><td>227</td><td>CCOMED</td><td>Cargo Comis.Edo Cta           </td></tr>
+<tr><td>227</td><td>CCOMIS</td><td>Cargo por Comision Compra DPN </td></tr>
+<tr><td>227</td><td>CCOMPN</td><td>Cargo Comis.Canc.Cred.Anticipa</td></tr>
+<tr><td>227</td><td>CCOMRB</td><td>Cargo Comis.Refer Ban         </td></tr>
+<tr><td>227</td><td>CCOMTR</td><td>Cargo por Comision de Transfer</td></tr>
+<tr><td>227</td><td>CCREUS</td><td>Cargo Comis.P/Rev.Sol.USD CADI</td></tr>
+<tr><td>227</td><td>CCSERE</td><td>Comision Servicio Recaudacion </td></tr>
+<tr><td>227</td><td>CCTRUS</td><td>Cargo Comis.P/Tramit.USD CADIV</td></tr>
+<tr><td>227</td><td>CGABDV</td><td>Cargo Transf. Bco.de Venezuela</td></tr>
+<tr><td>227</td><td>CGABME</td><td>Cargo Transf. Bco.Mercantil   </td></tr>
+<tr><td>227</td><td>CGCA01</td><td>Carta Cred. Revis. Documentos </td></tr>
+<tr><td>227</td><td>CGCA02</td><td>Carta Cred. Comis. Aceptacion </td></tr>
+<tr><td>227</td><td>CGCA03</td><td>Carta Cred. Comis. Reembolso  </td></tr>
+<tr><td>227</td><td>CGCA04</td><td>Carta Cred. Gastos Swift      </td></tr>
+<tr><td>227</td><td>CGCA05</td><td>Carta Cred. Gastos Correo     </td></tr>
+<tr><td>227</td><td>CGCA06</td><td>Carta Cred. Comis.Tramitacion </td></tr>
+<tr><td>227</td><td>CGCA07</td><td>Carta Cred. Intereses Mora    </td></tr>
+<tr><td>227</td><td>CGCA08</td><td>Carta Cred. Cobra.Documentaria</td></tr>
+<tr><td>227</td><td>CGCA09</td><td>Carta Cred. Apertura          </td></tr>
+<tr><td>227</td><td>CGCA10</td><td>Carta Cred. Modificacion      </td></tr>
+<tr><td>227</td><td>CGCANC</td><td>Cargo sobrante Cancelacion    </td></tr>
+<tr><td>227</td><td>CGCB01</td><td>Carta Cred.Revis.Doc. N-ITF   </td></tr>
+<tr><td>227</td><td>CGCB03</td><td>Carta Cred.Comis.Reemb. N-ITF </td></tr>
+<tr><td>227</td><td>CGCB04</td><td>Carta Cred.Gastos Swift N-ITF </td></tr>
+<tr><td>227</td><td>CGCB05</td><td>Carta Cred.Gastos Correo N-ITF</td></tr>
+<tr><td>227</td><td>CGCB07</td><td>Carta Cred.Interes Mora N-ITF </td></tr>
+<tr><td>227</td><td>CGCB09</td><td>Carta Cred. Apertura N-ITF    </td></tr>
+<tr><td>227</td><td>CGCB10</td><td>Carta Cred. Modif. N-ITF      </td></tr>
+<tr><td>227</td><td>CGCMEL</td><td>Cargo Comis. Extravio Libreta </td></tr>
+<tr><td>227</td><td>CGCMET</td><td>Cargo Comis. Extravio Tarjeta </td></tr>
+<tr><td>227</td><td>CGCMOB</td><td>Cg.Coms p/Repres.Oblig.Em.Pap.</td></tr>
+<tr><td>227</td><td>CGDPGA</td><td>Cargo Deposito Garantia Suc.  </td></tr>
+<tr><td>227</td><td>CGDPPV</td><td>Cargo Dev. Liq. Depos. Previo </td></tr>
+<tr><td>227</td><td>CGESPE</td><td>Cargo RRHH Especial           </td></tr>
+<tr><td>227</td><td>CGFAOV</td><td>Comision FAOV Ptmo.Corto Plz. </td></tr>
+<tr><td>227</td><td>CGISLR</td><td>Cargo por I.S.L.R.            </td></tr>
+<tr><td>227</td><td>CGIVSS</td><td>Cargo Comision Pensiones IVSS </td></tr>
+<tr><td>227</td><td>CGMENU</td><td>Cargo Venta Divisa Menudeo    </td></tr>
+<tr><td>227</td><td>CGOEMP</td><td>Cargo Prestamo Empleados BNC  </td></tr>
+<tr><td>227</td><td>CGOMAS</td><td>Cgo por Cartera cedida Master </td></tr>
+<tr><td>227</td><td>CGOVIS</td><td>Cgo por Cartera cedida Visa   </td></tr>
+<tr><td>227</td><td>CGRDOM</td><td>Cargo Domiciliacion           </td></tr>
+<tr><td>227</td><td>CGRTCJ</td><td>Cargo recuperacion Ret. Caj.  </td></tr>
+<tr><td>227</td><td>CGSBCT</td><td>CARGO CREDITOS STANFORD BANK  </td></tr>
+<tr><td>227</td><td>CGTDDG</td><td>Cargo Tarjeta Privada Digitel </td></tr>
+<tr><td>227</td><td>CHEPAG</td><td>Cargo por Cheque Pagado       </td></tr>
+<tr><td>227</td><td>CHEQDV</td><td>Cargo por Cheque Devuelto     </td></tr>
+<tr><td>227</td><td>CHEQGC</td><td>Comision p/Emisión Cheque Gcia</td></tr>
+<tr><td>227</td><td>CHQDEV</td><td>Cargo Cheque Devuelto BNC     </td></tr>
+<tr><td>227</td><td>CHQGCI</td><td>Emisión Cheques de Gerencia   </td></tr>
+<tr><td>227</td><td>CISLR </td><td>Retención ISLR                </td></tr>
+<tr><td>227</td><td>CMMENU</td><td>Comision Operacion Menudeo    </td></tr>
+<tr><td>227</td><td>COBITF</td><td>Cobro Aut.ITF                 </td></tr>
+<tr><td>227</td><td>COENCH</td><td>Comis.Entrega de Chequera     </td></tr>
+<tr><td>227</td><td>COMCAM</td><td>Cargo Comisión no Financieras </td></tr>
+<tr><td>227</td><td>COMCAN</td><td>Cargo Com.Canc. antes 180 dias</td></tr>
+<tr><td>227</td><td>COMFAA</td><td>Com. Fideicomisos de Administ.</td></tr>
+<tr><td>227</td><td>COMFAD</td><td>Com. Fideicomisos de Administ.</td></tr>
+<tr><td>227</td><td>COMFAO</td><td>Com. Recuperacion Credito FAOV</td></tr>
+<tr><td>227</td><td>COMFIN</td><td>Com. Fideicomisos de Inversion</td></tr>
+<tr><td>227</td><td>COMGRT</td><td>Com. Fideicomisos de Garantia </td></tr>
+<tr><td>227</td><td>COMLAB</td><td>Com. Fideic.Adm.Indemn.Laboral</td></tr>
+<tr><td>227</td><td>COMMEF</td><td>Cargo Comis.P/Manejo de Efecti</td></tr>
+<tr><td>227</td><td>COMNOM</td><td>Cargo por Comision Trans Nomin</td></tr>
+<tr><td>227</td><td>COPCOB</td><td>Cargo Por Operac.Por Cobrar   </td></tr>
+<tr><td>227</td><td>CPADPN</td><td>Reverso AbonoxCompra de D.P.N.</td></tr>
+<tr><td>227</td><td>CPOLIN</td><td>Cargo Poliza Incendio         </td></tr>
+<tr><td>227</td><td>CPOLIV</td><td>Cargo Poliza de Vida          </td></tr>
+<tr><td>227</td><td>CPOLIZ</td><td>Cargo Poliza Vida e Inc.      </td></tr>
+<tr><td>227</td><td>CRCTAC</td><td>Cargo Cta.Acreed.Op.de Credito</td></tr>
+<tr><td>227</td><td>CRCTTE</td><td>Cargo Cta.Acreed.Op.Tesoreria </td></tr>
+<tr><td>227</td><td>CREATF</td><td>Cargo Gtos Ases.Tecn-F. Credit</td></tr>
+<tr><td>227</td><td>CRECLI</td><td>Cargo Remesa Cliente          </td></tr>
+<tr><td>227</td><td>CREDIT</td><td>Cargo por Cobranza            </td></tr>
+<tr><td>227</td><td>CREFAC</td><td>Cargo por Cobranza Facturas   </td></tr>
+<tr><td>227</td><td>CRFAOV</td><td>Cargo p/Intermediacion FAOV   </td></tr>
+<tr><td>227</td><td>CRGAMO</td><td>Cargo en Cuenta Credito Const </td></tr>
+<tr><td>227</td><td>CRGFON</td><td>Cuota X Cobrar Pend. FONGAR   </td></tr>
+<tr><td>227</td><td>CRGPDV</td><td>Compra PETROBONOS             </td></tr>
+<tr><td>227</td><td>CRGPOI</td><td>Cargo Poliza Incendio p/Cobrar</td></tr>
+<tr><td>227</td><td>CRGPOR</td><td>Prima Plza Vehic P/Pagar ORIEN</td></tr>
+<tr><td>227</td><td>CRGPOV</td><td>Cargo Poliza de Vida p/Cobrar </td></tr>
+<tr><td>227</td><td>CRUNEF</td><td>Cuota Credito Consumo-UNEFA   </td></tr>
+<tr><td>227</td><td>CTOFAO</td><td>Costo Oper. Recaudacion FAOV  </td></tr>
+<tr><td>227</td><td>DETANE</td><td>VER DETALLE ANEXO             </td></tr>
+<tr><td>227</td><td>DIFFAL</td><td>Cargo por diferencia faltante </td></tr>
+<tr><td>227</td><td>DOCCRE</td><td>Cargo Gtos Document Credito   </td></tr>
+<tr><td>227</td><td>ERROGA</td><td>Cargo P/Gtos.Legal.de Est.Juri</td></tr>
+<tr><td>227</td><td>FLAAGR</td><td>Cargo Comis.Flat Cred Agrícola</td></tr>
+<tr><td>227</td><td>FLAMAC</td><td>Cargo Comis.Flat Cred Manufact</td></tr>
+<tr><td>227</td><td>FLAMIC</td><td>Cargo Comis.Flat Cred Microcre</td></tr>
+<tr><td>227</td><td>FLAT  </td><td>Cargo por Comis.Flat Credito  </td></tr>
+<tr><td>227</td><td>FLATAU</td><td>Comis.Flat Credito BNCAUTO    </td></tr>
+<tr><td>227</td><td>FLATDD</td><td>Cargo Comis.Flat Docum.Descont</td></tr>
+<tr><td>227</td><td>GERNCT</td><td>Cargo Cheques Ger.No Cargados </td></tr>
+<tr><td>227</td><td>GTONOC</td><td>Gastos de Notaria por Cobrar  </td></tr>
+<tr><td>227</td><td>GTONOT</td><td>Gastos de Notaria por Pagar   </td></tr>
+<tr><td>227</td><td>IDB   </td><td>Cargo en Cta.por IDB (Manual) </td></tr>
+<tr><td>227</td><td>INCAOP</td><td>Rev.Intereses Canc.x Antic.OPA</td></tr>
+<tr><td>227</td><td>INCFID</td><td>Cargo Capitalizacion Int. Fid.</td></tr>
+<tr><td>227</td><td>INIPOL</td><td>Inicial Poliza de Empleados   </td></tr>
+<tr><td>227</td><td>INTCCR</td><td>Rev.Interés en Cuenta         </td></tr>
+<tr><td>227</td><td>INTDPF</td><td>Cargo Rev.Intereses DPF       </td></tr>
+<tr><td>227</td><td>INTFID</td><td>Pago Intereses Fideicomiso    </td></tr>
+<tr><td>227</td><td>INTSOB</td><td>Cargo Int.Mensual P/Sobregiro </td></tr>
+<tr><td>227</td><td>ITF   </td><td>Cargo en Cta.por IDB (Manual) </td></tr>
+<tr><td>227</td><td>IVAARR</td><td>Cargo IVA Arrendamiento       </td></tr>
+<tr><td>227</td><td>LBTRRV</td><td>Reverso Abono Via BCV - LBTR  </td></tr>
+<tr><td>227</td><td>LCCDOC</td><td>Cargo Gtos Documentacion LCC  </td></tr>
+<tr><td>227</td><td>LCCFLA</td><td>Cargo Comis.Flat LCC          </td></tr>
+<tr><td>227</td><td>LCCMAN</td><td>Cargo Gtos Mantenimiento LCC  </td></tr>
+<tr><td>227</td><td>LIFAOV</td><td>Carg.Liq.Cr.FAOV s/rec.BANAVIH</td></tr>
+<tr><td>227</td><td>LIQFID</td><td>Cargo por Liquidacion Fideicom</td></tr>
+<tr><td>227</td><td>LIQLAV</td><td>Cargo Int. por Reembolso BCV  </td></tr>
+<tr><td>227</td><td>NOMAUT</td><td>Rev.Ab.Ctas.Antic.Utilidades  </td></tr>
+<tr><td>227</td><td>NOMCON</td><td>Cargo Nominas RRHH Contratados</td></tr>
+<tr><td>227</td><td>NOMEXT</td><td>Cargo por Nominas Externas    </td></tr>
+<tr><td>227</td><td>NOMINA</td><td>Reverso Ctas.Nomina por RRHH  </td></tr>
+<tr><td>227</td><td>NOMOPE</td><td>Cargo p/Operaciones por Cobrar</td></tr>
+<tr><td>227</td><td>NOTADE</td><td>Debito en Cuenta              </td></tr>
+<tr><td>227</td><td>ONRTDD</td><td>Carg.ONR EN TRAMITES TDD      </td></tr>
+<tr><td>227</td><td>OTINEX</td><td>Otros Ingresos Extraordinarios</td></tr>
+<tr><td>227</td><td>P2PRCL</td><td>Reverso Reclamo P2P           </td></tr>
+<tr><td>227</td><td>PAGNOT</td><td>Cargo Pago a Notaria Clientes </td></tr>
+<tr><td>227</td><td>PGOTRO</td><td>Cargo Pagos Otros             </td></tr>
+<tr><td>227</td><td>POVIIN</td><td>Poliza Vida e Incendio Emplead</td></tr>
+<tr><td>227</td><td>PPVORI</td><td>Prima Plza Vehic P/Pagar ORIEN</td></tr>
+<tr><td>227</td><td>PROVEE</td><td>Rev. Abono Cta.Proveedor.O.Pag</td></tr>
+<tr><td>227</td><td>PRTFID</td><td>Cargo por Prestamo Fideicomiso</td></tr>
+<tr><td>227</td><td>RABECH</td><td>Reverso Abono Constr.x ems.Che</td></tr>
+<tr><td>227</td><td>RCDPNP</td><td>Reverso Compra de D.P.N.      </td></tr>
+<tr><td>227</td><td>RECCAN</td><td>Reintegro Recaudacion CANTV   </td></tr>
+<tr><td>227</td><td>RECGEF</td><td>Rev. Reint.Cargos Efect. TDC  </td></tr>
+<tr><td>227</td><td>RECNPR</td><td>Rev. Abono por Reclamo        </td></tr>
+<tr><td>227</td><td>REIMRA</td><td>Cargo Interes de Mora         </td></tr>
+<tr><td>227</td><td>REPETD</td><td>Rev.Recl.Pend. TDD Nomina Ext.</td></tr>
+<tr><td>227</td><td>RETFID</td><td>Cargo por Retiro Fideicomiso  </td></tr>
+<tr><td>227</td><td>RETIRO</td><td>Cargo por Retiro Cta.Sin Libre</td></tr>
+<tr><td>227</td><td>RINTCR</td><td>Cargo Intereses de Cartera    </td></tr>
+<tr><td>227</td><td>RPERDI</td><td>Reverso Perdidas Realizadas   </td></tr>
+<tr><td>227</td><td>RRECNP</td><td>Reverso Abono por Reclamo     </td></tr>
+<tr><td>227</td><td>RREMAD</td><td>Rev.Remun. Fideicomisos Adm.  </td></tr>
+<tr><td>227</td><td>RREMFI</td><td>Rev.Remun. Fideicomisos Inver.</td></tr>
+<tr><td>227</td><td>RREMLA</td><td>Rev.Rem.Fideic.Adm.Indem.Lab. </td></tr>
+<tr><td>227</td><td>RREMTE</td><td>Rev.Remun. Fideic. P.Terceros </td></tr>
+<tr><td>227</td><td>RVABBN</td><td>Reverso Abono Bono RRHH       </td></tr>
+<tr><td>227</td><td>RVABML</td><td>Rev. abono a cliente incorrec.</td></tr>
+<tr><td>227</td><td>RVABPR</td><td>Reverso Abono a Proveedores   </td></tr>
+<tr><td>227</td><td>RVDEPO</td><td>Rev. Deposito en cuenta       </td></tr>
+<tr><td>227</td><td>RVPTDC</td><td>Reverso Abono P/Consumos TDC  </td></tr>
+<tr><td>227</td><td>RVTRAE</td><td>Reverso Transf.Aporte Empleado</td></tr>
+<tr><td>227</td><td>SUIH7B</td><td>Rev. Abono Reclamo Suiche7b   </td></tr>
+<tr><td>227</td><td>TARJET</td><td>Cargo Pago Tarjeta de Credito </td></tr>
+<tr><td>227</td><td>TIMBRE</td><td>Cargo Timbre Fiscal           </td></tr>
+<tr><td>227</td><td>TRABCV</td><td>Cargo Transferencia Via BCV   </td></tr>
+<tr><td>227</td><td>TRAFID</td><td>Tranf. Constituye Fideicomiso </td></tr>
+<tr><td>227</td><td>TRALC </td><td>Cargo por Cartas de Credito   </td></tr>
+<tr><td>227</td><td>TRBCVE</td><td>Cargo Transf.via BCV sin ITF. </td></tr>
+<tr><td>227</td><td>UAPDOM</td><td>Cargo por Domiciliacion UAP   </td></tr>
+<tr><td>227</td><td>VALFID</td><td>Cargo X Valuacion Fideicomiso </td></tr>
+<tr><td>227</td><td>VENEPA</td><td>Cargo Especial para Venepal   </td></tr>
+<tr><td>227</td><td>VTABON</td><td>Cargo por Venta de Bonos      </td></tr>
+<tr><td>227</td><td>VTADPN</td><td>Cargo por Venta de D.P.N.     </td></tr>
+<tr><td>227</td><td>VTAUSD</td><td>Cargo por Venta de Divisas    </td></tr>
+<tr><td>228</td><td>      </td><td>Cheque Cargado                </td></tr>
+<tr><td>228</td><td>MULTI </td><td>Cheque Cargado                </td></tr>
+<tr><td>231</td><td>      </td><td>Ventas de Divisa              </td></tr>
+<tr><td>231</td><td>CFEBCV</td><td>Pacta fondo (Compra Euro  BCV)</td></tr>
+<tr><td>231</td><td>CFOBCV</td><td>Pacta fondo (Compra Dolar BCV)</td></tr>
+<tr><td>231</td><td>CMEBCV</td><td>Compra Divisa BCV EURO    8076</td></tr>
+<tr><td>231</td><td>CMECTE</td><td>Compra Div.Clte. Abn.Cta.EURO </td></tr>
+<tr><td>231</td><td>CMPBCV</td><td>Compra Divisa BCV         8069</td></tr>
+<tr><td>231</td><td>CMPCTE</td><td>Compra Divisa Cliente Abn.Cta.</td></tr>
+<tr><td>231</td><td>RVVTCT</td><td>Rev.Vta. Divisa Cte.Carg.Cta. </td></tr>
+<tr><td>231</td><td>VFEBCV</td><td>Pacta fondo (Venta  Euro  BCV)</td></tr>
+<tr><td>231</td><td>VFOBCV</td><td>Pacta fondo (Venta  Dolar BCV)</td></tr>
+<tr><td>231</td><td>VTABCV</td><td>Vta. Divisa BCV           8060</td></tr>
+<tr><td>231</td><td>VTACTC</td><td>Vta. Divisa Cliente via BCV   </td></tr>
+<tr><td>231</td><td>VTACTE</td><td>Vta. Divisa Cliente Carg.Cta. </td></tr>
+<tr><td>231</td><td>VTALDB</td><td>Vta. Divisa ALADI BCV         </td></tr>
+<tr><td>231</td><td>VTALDC</td><td>Vta.Divisa ALADI/SUC Carg.Cta.</td></tr>
+<tr><td>231</td><td>VTEBCV</td><td>Vta. Divisa BCV EURO          </td></tr>
+<tr><td>231</td><td>VTECTC</td><td>Vta. Divisa Clte. via BCV EURO</td></tr>
+<tr><td>231</td><td>VTECTE</td><td>Vta. Divi.Clte.Carg.Cta. EURO </td></tr>
+<tr><td>233</td><td>      </td><td>Depósito Aseo Alc. Girardot   </td></tr>
+<tr><td>234</td><td>      </td><td>Tickets UnoMejor              </td></tr>
+<tr><td>235</td><td>      </td><td>Depósito Alcaldia Baruta      </td></tr>
+<tr><td>236</td><td>      </td><td>Depósito Recaudacion MiBanco  </td></tr>
+<tr><td>237</td><td>      </td><td>Depósito Fondo Esp. Jubilacion</td></tr>
+<tr><td>239</td><td>      </td><td>Depósito Alcaldia Cagua       </td></tr>
+<tr><td>240</td><td>      </td><td>Depósito Alcaldia Chacao      </td></tr>
+<tr><td>241</td><td>      </td><td>Pago Cuota de Crédito         </td></tr>
+<tr><td>242</td><td>CARGO </td><td>Cargo Pago Parcial Pagaré     </td></tr>
+<tr><td>242</td><td>CARGOR</td><td>Cargo P/REESTRUC. Crédito     </td></tr>
+<tr><td>242</td><td>COMADM</td><td>Gasto Administrativo Prorroga </td></tr>
+<tr><td>242</td><td>FLAT  </td><td>Cargo por Comis.Flat Credito  </td></tr>
+<tr><td>242</td><td>GCOBRA</td><td>Gastos de Cobranza            </td></tr>
+<tr><td>242</td><td>PAGPTM</td><td>Pago Parcial Pagaré           </td></tr>
+<tr><td>242</td><td>PRORRO</td><td>Cobranza Pago Parcial         </td></tr>
+<tr><td>243</td><td>      </td><td>Amortización Crédito          </td></tr>
+<tr><td>243</td><td>AMOCRC</td><td>Cobro Ints./Captal Constructor</td></tr>
+<tr><td>243</td><td>CARGO </td><td>Pago Parcial Crédito          </td></tr>
+<tr><td>243</td><td>CARPTM</td><td>Pago Crédito por Internet     </td></tr>
+<tr><td>243</td><td>CRGAMO</td><td>Cargo en Cuenta Credito Const </td></tr>
+<tr><td>243</td><td>FAOV  </td><td>Carga Cuenta FAOV Subsidio    </td></tr>
+<tr><td>243</td><td>PAGPTM</td><td>Subrogacion de deuda PM       </td></tr>
+<tr><td>243</td><td>RVFAOV</td><td>Rev.Cargo Cuenta FAOV Subsidio</td></tr>
+<tr><td>244</td><td>      </td><td>Cancelación Crédito           </td></tr>
+<tr><td>244</td><td>,     </td><td>Cancelación de Créditos       </td></tr>
+<tr><td>244</td><td>}     </td><td>Cancelación de Créditos       </td></tr>
+<tr><td>244</td><td>+     </td><td>Cancelación de Créditos       </td></tr>
+<tr><td>244</td><td>2     </td><td>Cancelación de Créditos       </td></tr>
+<tr><td>244</td><td>44    </td><td>Cancelación de Créditos       </td></tr>
+<tr><td>244</td><td>COD   </td><td>Cancelación de Créditos       </td></tr>
+<tr><td>244</td><td>CREDIT</td><td>Cancelación de Créditos       </td></tr>
+<tr><td>244</td><td>EGRESO</td><td>Cancelación Crédito Egresos   </td></tr>
+<tr><td>244</td><td>NORMAL</td><td>Cancelación Crédito           </td></tr>
+<tr><td>244</td><td>RAM05 </td><td>Cancelación de Créditos       </td></tr>
+<tr><td>245</td><td>      </td><td>Depósito Mun.Libertador Merida</td></tr>
+<tr><td>245</td><td>DEPTDD</td><td>Depósito Mun.Libertador Merida</td></tr>
+<tr><td>246</td><td>      </td><td>Depósito Alcaldia Mun.Vargas  </td></tr>
+<tr><td>247</td><td>      </td><td>Depósito Alcaldia Iribarren   </td></tr>
+<tr><td>248</td><td>      </td><td>Depósito AVON                 </td></tr>
+<tr><td>249</td><td>      </td><td>Depósito Deltaven             </td></tr>
+<tr><td>250</td><td>      </td><td>Reverso Depósitos             </td></tr>
+<tr><td>250</td><td>REVCHC</td><td>Reverso Cheque Cargado        </td></tr>
+<tr><td>250</td><td>REVCHE</td><td>Reverso Pago de Cheque        </td></tr>
+<tr><td>250</td><td>REVCOM</td><td>Rev.Cheque Pagado Compensación</td></tr>
+<tr><td>250</td><td>REVDEP</td><td>Reverso Depósitos en Cuentas  </td></tr>
+<tr><td>250</td><td>REVRET</td><td>Reverso Retiros de Ahorros    </td></tr>
+<tr><td>250</td><td>REVSEN</td><td>Reverso Cheque Cargado Seniat </td></tr>
+<tr><td>250</td><td>REVUNO</td><td>Reverso Tickets UnoMejor      </td></tr>
+<tr><td>251</td><td>ABOCER</td><td>Abono Aut.Anulación Certific. </td></tr>
+<tr><td>251</td><td>ABOINA</td><td>Abono Aut.Intereses DPF       </td></tr>
+<tr><td>251</td><td>REVIMP</td><td>Rev. Cargo por I.S.l.R. DPF   </td></tr>
+<tr><td>253</td><td>      </td><td>Depósito FAOV                 </td></tr>
+<tr><td>254</td><td>      </td><td>Depósito Cadafe               </td></tr>
+<tr><td>255</td><td>      </td><td>Depósito Good Year            </td></tr>
+<tr><td>256</td><td>      </td><td>Depósito Mun. El Hatillo      </td></tr>
+<tr><td>257</td><td>      </td><td>Depósito Bancrecer            </td></tr>
+<tr><td>258</td><td>      </td><td>Depósito Alcaldia Valencia    </td></tr>
+<tr><td>258</td><td>ABONO </td><td>Pago Alcaldia Valencia  BNCNET</td></tr>
+<tr><td>258</td><td>CARGO </td><td>Pago Alcaldia Valencia  BNCNET</td></tr>
+<tr><td>262</td><td>      </td><td>Traspaso entre Cuentas        </td></tr>
+<tr><td>262</td><td>ABOANU</td><td>Tranf. Via BCV - LBTR         </td></tr>
+<tr><td>262</td><td>ABODOM</td><td>Abono Domiciliado             </td></tr>
+<tr><td>262</td><td>ABOEDC</td><td>Abono Domiciliado EDC         </td></tr>
+<tr><td>262</td><td>ABOLBT</td><td>Tranf. entre Ctas. Internet   </td></tr>
+<tr><td>262</td><td>ABOMAS</td><td>Tranf.Ctas.Internet Masivo    </td></tr>
+<tr><td>262</td><td>ABONO </td><td>Tranf. entre Ctas. Internet   </td></tr>
+<tr><td>262</td><td>ABOTER</td><td>Tranf. entre Ctas. Internet   </td></tr>
+<tr><td>262</td><td>ALTTRN</td><td>COSTO TRASF. ALTO VALOR - LBTR</td></tr>
+<tr><td>262</td><td>CARGO </td><td>Tranf. entre Ctas. Internet   </td></tr>
+<tr><td>262</td><td>CARGOL</td><td>Tranf. entre Ctas. Internet   </td></tr>
+<tr><td>262</td><td>CARGOM</td><td>Tranf. entre Ctas. Internet   </td></tr>
+<tr><td>262</td><td>CARGOT</td><td>Tranf. entre Ctas. Internet   </td></tr>
+<tr><td>262</td><td>CARMAS</td><td>Tranf.Ctas.Internet Masivo    </td></tr>
+<tr><td>262</td><td>CDRUAP</td><td>Abono por Creditos Directos   </td></tr>
+<tr><td>262</td><td>CGUAPD</td><td>Crg.Transf.Devuelta Dupl.UAP  </td></tr>
+<tr><td>262</td><td>COMISI</td><td>Comision Tranferencias BNCNet </td></tr>
+<tr><td>262</td><td>CRGDOM</td><td>Cargo Domiciliado             </td></tr>
+<tr><td>262</td><td>CRGUAP</td><td>Cargo por Creditos Directos   </td></tr>
+<tr><td>262</td><td>DOMEDC</td><td>Cargo Domiciliado EDC         </td></tr>
+<tr><td>262</td><td>LBTDEV</td><td>REGISTRA COMPRESACION LBTR DEV</td></tr>
+<tr><td>262</td><td>LBTPRE</td><td>REGISTRA COMPRESACION LBTR    </td></tr>
+<tr><td>262</td><td>LBTRAB</td><td>Abono Via BCV - LBTR          </td></tr>
+<tr><td>262</td><td>LBTRRE</td><td>Traspaso entre Cuentas        </td></tr>
+<tr><td>262</td><td>LBTRRV</td><td>Devuelto Abono Via BCV - LBTR </td></tr>
+<tr><td>262</td><td>RALBTR</td><td>Rev. Tranf. Via BCV - LBTR    </td></tr>
+<tr><td>262</td><td>RCDRUA</td><td>Rv.Abono por Creditos Directos</td></tr>
+<tr><td>262</td><td>RCRGDO</td><td>Reverso Cargo Domiciliado     </td></tr>
+<tr><td>262</td><td>REGUAP</td><td>Regularizacion Credito Directo</td></tr>
+<tr><td>262</td><td>REICOM</td><td>Rev. Comision Tranf. BNCNet   </td></tr>
+<tr><td>262</td><td>REVUA1</td><td>Rv.Cargo por Transf. Duplicada</td></tr>
+<tr><td>262</td><td>REVUAP</td><td>Rv.Cargo por Transferencia    </td></tr>
+<tr><td>262</td><td>RGCARG</td><td>Reg.Devolucion Credito Directo</td></tr>
+<tr><td>262</td><td>RTRUAP</td><td>Rv.Pago Tarjeta Otros Bancos  </td></tr>
+<tr><td>262</td><td>RVABMS</td><td>Rev.Tranf.Ctas.Internet Masivo</td></tr>
+<tr><td>262</td><td>RVCARG</td><td>Rev.Tranf. entre Ctas.Internet</td></tr>
+<tr><td>262</td><td>RVCRMS</td><td>Rev.Tranf.Ctas.Internet Masivo</td></tr>
+<tr><td>262</td><td>UAPDEV</td><td>REGISTRA COMPRESACION UAP DEV </td></tr>
+<tr><td>262</td><td>UAPDOM</td><td>Cargo por Domiciliacion UAP   </td></tr>
+<tr><td>262</td><td>UAPPRE</td><td>REGISTRA COMPRESACION UAP     </td></tr>
+<tr><td>271</td><td>      </td><td>Retiro de Cajero              </td></tr>
+<tr><td>271</td><td>REVERS</td><td>Reverso Retiro de Cajero      </td></tr>
+<tr><td>271</td><td>REVESW</td><td>Reverso Retiro de Cajero      </td></tr>
+<tr><td>271</td><td>SW    </td><td>Retiro de Cajero              </td></tr>
+<tr><td>272</td><td>ABONO </td><td>Transferencia entre Ctas.     </td></tr>
+<tr><td>272</td><td>CARGO </td><td>Transferencia entre Ctas.     </td></tr>
+<tr><td>272</td><td>COMBNC</td><td>Comisión Retiro ATM otro Banco</td></tr>
+<tr><td>272</td><td>REVABO</td><td>Reverso Transferencia Ctas.   </td></tr>
+<tr><td>272</td><td>REVCAR</td><td>Reverso Transferencia Ctas    </td></tr>
+<tr><td>273</td><td>      </td><td>Retiro de POS                 </td></tr>
+<tr><td>273</td><td>REVERS</td><td>Reverso Retiro de POS         </td></tr>
+<tr><td>281</td><td>ABOANU</td><td>Tranf. Via BCV - LBTR         </td></tr>
+<tr><td>281</td><td>ABOLBT</td><td>Pago Tarjeta Cred.Otros Bancos</td></tr>
+<tr><td>281</td><td>ABONO </td><td>Pago Tarjeta Credito Internet.</td></tr>
+<tr><td>281</td><td>ABOTER</td><td>Pago Tarjeta Cred.Otros Bancos</td></tr>
+<tr><td>281</td><td>ALTTRN</td><td>COSTO TRASF. ALTO VALOR - LBTR</td></tr>
+<tr><td>281</td><td>CARGO </td><td>Pago Tarjeta Credito Internet </td></tr>
+<tr><td>281</td><td>COMISI</td><td>Comision Pago Tarjeta BNCNet  </td></tr>
+<tr><td>282</td><td>      </td><td>Avance de Efectivo BNCNET     </td></tr>
+<tr><td>286</td><td>CARGDO</td><td>Cargo Traspaso Us$            </td></tr>
+<tr><td>286</td><td>CARGEU</td><td>Cargo Traspaso Euros          </td></tr>
+<tr><td>286</td><td>CARMCD</td><td>Compra Mesa De Cambio US$     </td></tr>
+<tr><td>286</td><td>RETEUR</td><td>Retiro Efect.Euros            </td></tr>
+<tr><td>300</td><td>      </td><td>Depósito LEBEL                </td></tr>
+<tr><td>301</td><td>      </td><td>Depósito ESIKA                </td></tr>
+<tr><td>302</td><td>      </td><td>Depósito LEGIS                </td></tr>
+<tr><td>303</td><td>      </td><td>Depósito SATAR                </td></tr>
+<tr><td>315</td><td>ACTIVA</td><td>Liquida Fianzas               </td></tr>
+<tr><td>323</td><td>      </td><td>Ajustes a Préstamos           </td></tr>
+<tr><td>323</td><td>ABONO </td><td>Ajustes a Préstamos           </td></tr>
+<tr><td>323</td><td>CARGO </td><td>Ajustes a Préstamos           </td></tr>
+<tr><td>323</td><td>MODSAL</td><td>Modifica Saldos de Créditos   </td></tr>
+<tr><td>350</td><td>      </td><td>Depósito Alcaldia Maracaibo   </td></tr>
+<tr><td>351</td><td>      </td><td>Depósito FEBECA               </td></tr>
+<tr><td>352</td><td>      </td><td>Depósito MAYOR BEVAL          </td></tr>
+<tr><td>353</td><td>      </td><td>Depósito INCES                </td></tr>
+<tr><td>354</td><td>      </td><td>Recaudacion Liquidacion Sumat </td></tr>
+<tr><td>355</td><td>      </td><td>Recaudacion Auto-Liquidacion  </td></tr>
+<tr><td>356</td><td>      </td><td>Depósito Alcaldia SUCRE       </td></tr>
+<tr><td>358</td><td>      </td><td>Depósito Industrias JADE      </td></tr>
+<tr><td>359</td><td>      </td><td>Depósito Alcaldia San Cistobal</td></tr>
+<tr><td>365</td><td>      </td><td>Depósito Stanhome Panamericana</td></tr>
+<tr><td>371</td><td>      </td><td>Retiro de Cajero              </td></tr>
+<tr><td>371</td><td>REVERS</td><td>Reverso Retiro de Cajero      </td></tr>
+<tr><td>372</td><td>ABONO </td><td>Transferencia entre Ctas.     </td></tr>
+<tr><td>372</td><td>CARGO </td><td>Transferencia entre Ctas.     </td></tr>
+<tr><td>372</td><td>COMBNC</td><td>Comisión Retiro ATM otro Banco</td></tr>
+<tr><td>373</td><td>ABNDOC</td><td>Cargos Comisiones Cartas Crédi</td></tr>
+<tr><td>373</td><td>ABNVTA</td><td>Abono Ventas a Plazo Construct</td></tr>
+<tr><td>373</td><td>ABOCOM</td><td>Abona Comision Vendedor       </td></tr>
+<tr><td>373</td><td>ABONO </td><td>Abona liquidación crédito     </td></tr>
+<tr><td>373</td><td>APERC </td><td>Liquidación de Crédito CHEQUE </td></tr>
+<tr><td>373</td><td>APERT </td><td>Liquidación de Crédito ABONO  </td></tr>
+<tr><td>373</td><td>APERTE</td><td>Liquidación de Crédito Emplea.</td></tr>
+<tr><td>373</td><td>CARDOC</td><td>Cargos Comisiones Cartas Crédi</td></tr>
+<tr><td>373</td><td>CARFAO</td><td>Cargo liquidación  Faov       </td></tr>
+<tr><td>373</td><td>CARFZA</td><td>Cargo por Com.flat Fianzas    </td></tr>
+<tr><td>373</td><td>CARPTM</td><td>Cargo por Erogaciones de Crdto</td></tr>
+<tr><td>373</td><td>CREGAR</td><td>Creación de Garantías         </td></tr>
+<tr><td>373</td><td>CRGVTA</td><td>Cargo Ventas a Plazo Construct</td></tr>
+<tr><td>373</td><td>DOCCRE</td><td>Gastos Documentación Crédito  </td></tr>
+<tr><td>373</td><td>FDOGTI</td><td>Abono Cuenta Faov Fdo.garantia</td></tr>
+<tr><td>373</td><td>GASASE</td><td>Gastos de Asesoria T-F        </td></tr>
+<tr><td>373</td><td>GASTER</td><td>Cargo Liquidación Crédito     </td></tr>
+<tr><td>373</td><td>MINAGT</td><td>Reten Min Agric y Tierras     </td></tr>
+<tr><td>373</td><td>PRONTO</td><td>Pronto Pago Plan Mayor        </td></tr>
+<tr><td>373</td><td>RABVTA</td><td>Rev.Abono Ventas a Plzo Const.</td></tr>
+<tr><td>373</td><td>TIMBRA</td><td>Cargo Timbre Fiscal           </td></tr>
+<tr><td>374</td><td>REVABO</td><td>Reversa Cargo Aut.Erog.Crédito</td></tr>
+<tr><td>374</td><td>REVCAR</td><td>Transferencia Aut.Liq.Crédito </td></tr>
+<tr><td>374</td><td>TRAABO</td><td>Transferencia Aut.Liq.Crédito </td></tr>
+<tr><td>374</td><td>TRACRG</td><td>Transferencia Aut.Liq.Crédito </td></tr>
+<tr><td>374</td><td>TRFABO</td><td>Transf.Ordenada p/el Proveedor</td></tr>
+<tr><td>374</td><td>TRFCAR</td><td>Transferencia al Cliente      </td></tr>
+<tr><td>376</td><td>      </td><td>Retiro de POS CATSW           </td></tr>
+<tr><td>376</td><td>ABOTRF</td><td>Tranf. Ctas. de Beneficio     </td></tr>
+<tr><td>376</td><td>ADQCOM</td><td>Adquisición Combos de Comida  </td></tr>
+<tr><td>376</td><td>DEBTRF</td><td>Tranf. Ctas. de Beneficio     </td></tr>
+<tr><td>376</td><td>POLIZA</td><td>Retiro RRHH PS                </td></tr>
+<tr><td>376</td><td>REVERS</td><td>Reverso Retiro de POS CATSW   </td></tr>
+<tr><td>382</td><td>CARGO </td><td>Pago MOVISTAR ATM             </td></tr>
+<tr><td>382</td><td>MOVIS </td><td>Abono Recaudacion Movistar ATM</td></tr>
+<tr><td>387</td><td>      </td><td>Operaciones P2P               </td></tr>
+<tr><td>387</td><td>P2PTRO</td><td>Cargo Pago Movil BNC          </td></tr>
+<tr><td>387</td><td>P2PTRP</td><td>Cargo Pago Movil BNC          </td></tr>
+<tr><td>387</td><td>P2PTSO</td><td>Cargo Pago Movil BNC          </td></tr>
+<tr><td>387</td><td>P2PTSP</td><td>Cargo Pago Movil BNC          </td></tr>
+<tr><td>387</td><td>P2PTSR</td><td>Cargo Pago Movil BNC          </td></tr>
+<tr><td>388</td><td>P2COTR</td><td>Abono Pago Movil BNC          </td></tr>
+<tr><td>388</td><td>P2POTR</td><td>Abono Pago Movil BNC          </td></tr>
+<tr><td>388</td><td>P2PTRP</td><td>Abono Pago Movil BNC          </td></tr>
+<tr><td>388</td><td>P2PTSP</td><td>Abono Pago Movil BNC          </td></tr>
+<tr><td>389</td><td>P2POTR</td><td>Rev. Pago Movil BNC           </td></tr>
+<tr><td>389</td><td>P2ROTR</td><td>Rev. Pago Movil BNC           </td></tr>
+<tr><td>401</td><td>CGPGSE</td><td>Cargo Pago Impuesto SENIAT    </td></tr>
+<tr><td>402</td><td>CGPGSE</td><td>Rv.Cargo Pago Impuesto SENIAT </td></tr>
+<tr><td>405</td><td>      </td><td>Cheque Pagado Imp.SENIAT      </td></tr>
+<tr><td>423</td><td>ABONO </td><td>Deposito Recaudacion SENIAT   </td></tr>
+<tr><td>424</td><td>      </td><td>Depósito Previo SENIAT        </td></tr>
+<tr><td>425</td><td>CARGO </td><td>PAGO DE IMPUESTOS BNCNET      </td></tr>
+<tr><td>436</td><td>LCCATF</td><td>Gastos Asesoría Tecn-Financ.  </td></tr>
+<tr><td>436</td><td>LCCDOC</td><td>Creación de LCC. Documentación</td></tr>
+<tr><td>436</td><td>LCCFLA</td><td>Creación de LCC. Comisión FLAT</td></tr>
+<tr><td>436</td><td>LCCMAN</td><td>LCC Gastos de mantenimiento   </td></tr>
+<tr><td>436</td><td>LCCMAR</td><td>Reint. LCC Gastos de Manten.  </td></tr>
+<tr><td>443</td><td>INGHID</td><td>Ingreso Pago HIDROCAPITAL     </td></tr>
+<tr><td>451</td><td>ABOSAN</td><td>Abono Pago Sanitas            </td></tr>
+<tr><td>451</td><td>ABOSAP</td><td>Abono Pago Sanitas POS        </td></tr>
+<tr><td>451</td><td>ABOSAV</td><td>Abono Compra Vales Sanitas    </td></tr>
+<tr><td>451</td><td>CARSAN</td><td>Cargo Pago Sanitas Taquilla   </td></tr>
+<tr><td>451</td><td>RECCAN</td><td>Recaudacion CANTV             </td></tr>
+<tr><td>451</td><td>RRECAN</td><td>REVERSO Recaudacion CANTV     </td></tr>
+<tr><td>452</td><td>ABONO </td><td>Rev.Abono Pago CANTV          </td></tr>
+<tr><td>453</td><td>CARGO </td><td>Ingresos Pago CANTV           </td></tr>
+<tr><td>453</td><td>INGCAN</td><td>Ingreso Pago CANTV            </td></tr>
+<tr><td>455</td><td>CARGO </td><td>Cargo Pago CANTV Internet     </td></tr>
+<tr><td>458</td><td>      </td><td>Depósito IVSS                 </td></tr>
+<tr><td>554</td><td>ABONO </td><td>Transferencia entre Ctas. IVR </td></tr>
+<tr><td>554</td><td>CARGO </td><td>Transferencia entre Ctas. IVR </td></tr>
+<tr><td>557</td><td>ABONO </td><td>Transf. Pago Tarjeta Credito  </td></tr>
+<tr><td>557</td><td>CARGO </td><td>Transf. Pago Tarjeta Credito  </td></tr>
+<tr><td>603</td><td>CARCER</td><td>Apertura DPF Internet         </td></tr>
+<tr><td>611</td><td>ABONO </td><td>Venta POS Internet            </td></tr>
+<tr><td>611</td><td>CARGO </td><td>Rev. Venta POS Internet       </td></tr>
+<tr><td>611</td><td>RABONO</td><td>Rev.Venta POS Internet        </td></tr>
+<tr><td>612</td><td>ABONO </td><td>Abono POS Internet TDD        </td></tr>
+<tr><td>612</td><td>CARGO </td><td>Rv.Compra POS Internet TDD    </td></tr>
+<tr><td>612</td><td>CPTDD </td><td>Compra TDD POS Internet       </td></tr>
+<tr><td>612</td><td>RVTDD </td><td>RV Compra TDD POS Internet    </td></tr>
+<tr><td>613</td><td>ABONO </td><td>Abono en Cuenta Credito Const </td></tr>
+<tr><td>613</td><td>CARGO </td><td>Cargo en Cuenta Credito Const </td></tr>
+<tr><td>613</td><td>CRGAMO</td><td>Cargo Liq. Subrogación        </td></tr>
+<tr><td>620</td><td>DPESPE</td><td>Depósito Internet             </td></tr>
+<tr><td>620</td><td>DPINTE</td><td>Depósito Internet             </td></tr>
+<tr><td>620</td><td>NCAJDP</td><td>Depósito Internet             </td></tr>
+<tr><td>620</td><td>NDAJDP</td><td>Depósito Internet             </td></tr>
+<tr><td>620</td><td>REVDP </td><td>Rev. Depósito Internet        </td></tr>
+<tr><td>620</td><td>RVDPIN</td><td>Rev. Depósito Internet        </td></tr>
+<tr><td>621</td><td>CARGO </td><td>Recarga Digitel               </td></tr>
+<tr><td>621</td><td>COBITF</td><td>Reversos Internet             </td></tr>
+<tr><td>621</td><td>DPESPE</td><td>Reverso Depósito Internet     </td></tr>
+<tr><td>621</td><td>DPINTE</td><td>Reverso Depósito Internet     </td></tr>
+<tr><td>621</td><td>NCAJDP</td><td>Reverso Depósito Internet     </td></tr>
+<tr><td>621</td><td>NDAJDP</td><td>Reverso Depósito Internet     </td></tr>
+<tr><td>623</td><td>      </td><td>Depósito Impuest.Mun. Internet</td></tr>
+<tr><td>623</td><td>CARGO </td><td>Depósito Impuest.Mun. Internet</td></tr>
+<tr><td>624</td><td>ABONO </td><td>Abono Recarga Digitel         </td></tr>
+<tr><td>624</td><td>AJUSTC</td><td>Ajuste Conciliacion Digitel CR</td></tr>
+<tr><td>624</td><td>AJUSTD</td><td>Ajuste Conciliacion Digitel DB</td></tr>
+<tr><td>624</td><td>CARGO </td><td>Recarga Digitel               </td></tr>
+<tr><td>624</td><td>CARGOR</td><td>Recarga Digitel (Reversado)   </td></tr>
+<tr><td>624</td><td>COMISI</td><td>Comision Recarga Digitel      </td></tr>
+<tr><td>624</td><td>RVABON</td><td>Reverso Recarga Digitel       </td></tr>
+<tr><td>625</td><td>      </td><td>Dep.Alcaldia Iribarren BNCNET </td></tr>
+<tr><td>625</td><td>CARGO </td><td>Pago Alcaldia Iribarren BNCNET</td></tr>
+<tr><td>630</td><td>      </td><td>DEPOSITO AVON BNCNET          </td></tr>
+<tr><td>630</td><td>CARGO </td><td>PAGO AVON BNCNET              </td></tr>
+<tr><td>631</td><td>NCAJDP</td><td>Dep. Cheque BNCNet            </td></tr>
+<tr><td>631</td><td>NDAJDP</td><td>Dep. Cheque BNCNet            </td></tr>
+<tr><td>632</td><td>COMECE</td><td>Cargo Comision Edo. de Cuenta </td></tr>
+<tr><td>632</td><td>COMREF</td><td>Comision Referencia Bancaria  </td></tr>
+<tr><td>633</td><td>NCAJDP</td><td>Dep. Cheque Multifuncional    </td></tr>
+<tr><td>633</td><td>NDAJDP</td><td>Dep. Cheque Multifuncional    </td></tr>
+<tr><td>637</td><td>ABONO </td><td>Abono Directv                 </td></tr>
+<tr><td>637</td><td>CARGO </td><td>Pago Directv                  </td></tr>
+<tr><td>637</td><td>COMISI</td><td>Comision Directv              </td></tr>
+<tr><td>637</td><td>EFECTI</td><td>Pago Directv Efectivo         </td></tr>
+<tr><td>637</td><td>RVABON</td><td>Reverso Pago Directv          </td></tr>
+<tr><td>637</td><td>RVCOMS</td><td>Reversa Comision Directv      </td></tr>
+<tr><td>638</td><td>      </td><td>Depósito Alcaldia SUCRE       </td></tr>
+<tr><td>638</td><td>CARGO </td><td>Pago Alcaldia SUCRE           </td></tr>
+<tr><td>642</td><td>      </td><td>Abono Recaud. Movistar BNCNet </td></tr>
+<tr><td>642</td><td>ABONO </td><td>Abono Recaud. Movistar BNCNet </td></tr>
+<tr><td>642</td><td>CARGO </td><td>Pago MOVISTAR BNCNet          </td></tr>
+<tr><td>642</td><td>COMISI</td><td>Comision MOVISTAR             </td></tr>
+<tr><td>644</td><td>ABONO </td><td>Abono Recaud. Hidrocapital    </td></tr>
+<tr><td>644</td><td>CARGO </td><td>Pago Hidrocapital             </td></tr>
+<tr><td>644</td><td>COMISI</td><td>Comision HIDROCAPITAL         </td></tr>
+<tr><td>644</td><td>REVERS</td><td>Abono Recaud. Hidrocapital    </td></tr>
+<tr><td>681</td><td>ABONO </td><td>Abona TDC Internacional       </td></tr>
+<tr><td>682</td><td>CARGO </td><td>Cargo TDC Internacional       </td></tr>
+<tr><td>704</td><td>ABNFAO</td><td>Abona Cuenta Banavih          </td></tr>
+<tr><td>704</td><td>ABNFDO</td><td>Abona Cuenta Faov Fdo.garantia</td></tr>
+<tr><td>704</td><td>BANAVI</td><td>Transfiere al banavih         </td></tr>
+<tr><td>704</td><td>CARPTM</td><td>Débitos en Cuenta por Cobranza</td></tr>
+<tr><td>704</td><td>COBFAO</td><td>Abono Cuenta FAOV comisión    </td></tr>
+<tr><td>704</td><td>FAOV  </td><td>Carga Cuenta FAOV Cobranza    </td></tr>
+<tr><td>704</td><td>PAGPTM</td><td>Cobranza Automática de Cuota  </td></tr>
+<tr><td>704</td><td>REVCAR</td><td>Reverso en Cuenta por Cobranza</td></tr>
+<tr><td>704</td><td>REVPAG</td><td>Reverso Cobranza de crédito   </td></tr>
+<tr><td>704</td><td>RVCRPT</td><td>Rev. Déb. Cuenta por Cobranza </td></tr>
+<tr><td>705</td><td>ABNTAR</td><td>Abono Cta.traslado sobreg TDP </td></tr>
+<tr><td>705</td><td>REVERS</td><td>Reverso Pago Digitel          </td></tr>
+<tr><td>706</td><td>CASTIC</td><td>CASTIGO Cuenta Sobregirada    </td></tr>
+<tr><td>706</td><td>CASTIG</td><td>CASTIGO EN LOTE               </td></tr>
+<tr><td>706</td><td>CASTIP</td><td>CASTIGO EN LOTE PERCONTRA     </td></tr>
+<tr><td>707</td><td>      </td><td>Cancelacion de Intereses      </td></tr>
+<tr><td>710</td><td>CANCEL</td><td>Cancela Crédito a Constructor </td></tr>
+<tr><td>710</td><td>SUBROG</td><td>Traspaso a Subrogación        </td></tr>
+<tr><td>717</td><td>CAPGGA</td><td>Cargo Ganancia Portafolio Fide</td></tr>
+<tr><td>717</td><td>INTFID</td><td>Deposito Intereses Fideicomiso</td></tr>
+<tr><td>718</td><td>ABOANU</td><td>Traspaso entre Cuentas Program</td></tr>
+<tr><td>718</td><td>ABOLBT</td><td>Tranf. entre Ctas. Internet   </td></tr>
+<tr><td>718</td><td>ABONO </td><td>Tranf. entre Ctas. Programados</td></tr>
+<tr><td>718</td><td>ABOTER</td><td>Tranf. entre Ctas. Internet   </td></tr>
+<tr><td>718</td><td>ALTTRN</td><td>COSTO TRASF. ALTO VALOR - LBTR</td></tr>
+<tr><td>718</td><td>CARGO </td><td>Tranf. entre Ctas. Programados</td></tr>
+<tr><td>718</td><td>COMISI</td><td>Comision Tranferencias BNCNet </td></tr>
+<tr><td>719</td><td>ABOCAA</td><td>Abono Aut.Cancelación DPF     </td></tr>
+<tr><td>719</td><td>ABOINA</td><td>Abono Aut. Intereses DPF      </td></tr>
+<tr><td>719</td><td>COBIMP</td><td>Cargo por I.S.L.R. DPF        </td></tr>
+<tr><td>719</td><td>RENCEA</td><td>Cargo Aut.Renovación DPF      </td></tr>
+<tr><td>719</td><td>REVIMP</td><td>Rev. Cargo por I.S.l.R. DPF   </td></tr>
+<tr><td>719</td><td>REVINA</td><td>Rev. Abono Aut. Intereses DPF </td></tr>
+<tr><td>719</td><td>RVABCA</td><td>Rev. Abono Aut.Cancelación DPF</td></tr>
+<tr><td>721</td><td>ABINTE</td><td>Correccion Ints. Mensuales    </td></tr>
+<tr><td>721</td><td>COBIMP</td><td>Cargo por I.S.L.R. Cuenta     </td></tr>
+<tr><td>721</td><td>INTABO</td><td>Ints. mensual de su cuenta    </td></tr>
+<tr><td>721</td><td>PROVIS</td><td>Provision Ints. mensual       </td></tr>
+<tr><td>721</td><td>RVINTE</td><td>Rev.Ints. mensual de su cuenta</td></tr>
+<tr><td>721</td><td>RVPROV</td><td>Rev. Provision Ints. mensual  </td></tr>
+<tr><td>723</td><td>COMSOB</td><td>Comision Otorgamien. Sobregiro</td></tr>
+<tr><td>723</td><td>INTSOB</td><td>Ints. mensual por sobregiro   </td></tr>
+<tr><td>723</td><td>INTUTL</td><td>Ints.mensual uso diferido     </td></tr>
+<tr><td>723</td><td>RINTSO</td><td>Rev.Ints.mensual por sobregiro</td></tr>
+<tr><td>724</td><td>CC    </td><td>Comisión por Corte de cuenta  </td></tr>
+<tr><td>724</td><td>CH    </td><td>Comisión entrega chequera     </td></tr>
+<tr><td>724</td><td>COBITF</td><td>Cobro Aut.ITF                 </td></tr>
+<tr><td>724</td><td>CQ    </td><td>Comisión Anulacion de Chequera</td></tr>
+<tr><td>724</td><td>DC    </td><td>Comisión Ch.Dvlto.Compensación</td></tr>
+<tr><td>724</td><td>DV    </td><td>Comisión Cheque Dvlto Taquilla</td></tr>
+<tr><td>724</td><td>E2    </td><td>Comisión Chequeras de 25      </td></tr>
+<tr><td>724</td><td>RCBITF</td><td>Cobro Aut.ITF                 </td></tr>
+<tr><td>724</td><td>REVEE2</td><td>Rev.Comisión Chequeras de 25  </td></tr>
+<tr><td>724</td><td>RP    </td><td>Comisión Reposicion TDD       </td></tr>
+<tr><td>726</td><td>ABAYES</td><td>Ayuda Especial                </td></tr>
+<tr><td>726</td><td>ABBNDE</td><td>Bonifica. Especial Desempeño  </td></tr>
+<tr><td>726</td><td>ABCNES</td><td>Contribución Especial 2017    </td></tr>
+<tr><td>726</td><td>ABCNNV</td><td>Contribución Navideña         </td></tr>
+<tr><td>726</td><td>ABESEJ</td><td>Bonif. Especial Ejecutiva     </td></tr>
+<tr><td>726</td><td>ABMADR</td><td>Detalle día de la Madre       </td></tr>
+<tr><td>726</td><td>ABOBNO</td><td>Abono Bono RRHH               </td></tr>
+<tr><td>726</td><td>ABOESP</td><td>Abono Especial a Menores BCO. </td></tr>
+<tr><td>726</td><td>ABONAV</td><td>Abono Horario Navideño        </td></tr>
+<tr><td>726</td><td>ABONOM</td><td>Abono a Ctas.Nomina por RRHH  </td></tr>
+<tr><td>726</td><td>ABORET</td><td>Retroactivo Sueldo Empleado   </td></tr>
+<tr><td>726</td><td>ABORHH</td><td>Abonos RRHH Banco             </td></tr>
+<tr><td>726</td><td>ABORRH</td><td>Abono RRHH                    </td></tr>
+<tr><td>726</td><td>ABOSAL</td><td>Abono Bono Salud              </td></tr>
+<tr><td>726</td><td>ABOTCK</td><td>Abono Cestaticket Socialista  </td></tr>
+<tr><td>726</td><td>ABOTRA</td><td>Ayuda de Transporte BNC       </td></tr>
+<tr><td>726</td><td>ABOTRR</td><td>Retroactivo Ayuda Transpor.BNC</td></tr>
+<tr><td>726</td><td>ABPADR</td><td>Detalle día del Padre         </td></tr>
+<tr><td>726</td><td>ANTPAG</td><td>Anticipo Pago Nomina          </td></tr>
+<tr><td>726</td><td>BNESCO</td><td>Bonific.Especial Contingencia </td></tr>
+<tr><td>726</td><td>BONSER</td><td>Pago especial años de servicio</td></tr>
+<tr><td>726</td><td>CMCUST</td><td>Abonos RRHH Banco             </td></tr>
+<tr><td>726</td><td>PAGLIQ</td><td>Pago Liq.Laboral BNC(Otr.Conc)</td></tr>
+<tr><td>726</td><td>PLANVC</td><td>Abono Plan Vacacional         </td></tr>
+<tr><td>726</td><td>POLIZA</td><td>Pago de Poliza de Salud BNC   </td></tr>
+<tr><td>726</td><td>RVABES</td><td>Rever.Abono Esp.a Menores BCO.</td></tr>
+<tr><td>726</td><td>RVABNM</td><td>Rev.Abn.Ctas.Nomina por RRHH  </td></tr>
+<tr><td>726</td><td>RVABTK</td><td>Rv.Abno Cestaticket Socialista</td></tr>
+<tr><td>729</td><td>ABII15</td><td>Abono Intereses TICC 2015     </td></tr>
+<tr><td>729</td><td>ABII16</td><td>Abono Intereses TICC 2016     </td></tr>
+<tr><td>729</td><td>ABII19</td><td>Abono Intereses TICC 2019     </td></tr>
+<tr><td>729</td><td>ABT115</td><td>Operaciones Bonos             </td></tr>
+<tr><td>729</td><td>ABTF16</td><td>Abono TIF 2016                </td></tr>
+<tr><td>729</td><td>ABTI13</td><td>Operaciones Bonos             </td></tr>
+<tr><td>729</td><td>ABTI14</td><td>Operaciones Bonos             </td></tr>
+<tr><td>729</td><td>ABTI15</td><td>Abono TICC 2015               </td></tr>
+<tr><td>729</td><td>ABTI19</td><td>Abono TICC 2019               </td></tr>
+<tr><td>729</td><td>ABTICC</td><td>Abono TICC 2017               </td></tr>
+<tr><td>729</td><td>ABVE14</td><td>Vebono 2014                   </td></tr>
+<tr><td>729</td><td>ABVE15</td><td>Vebono 2015                   </td></tr>
+<tr><td>729</td><td>ABVE16</td><td>Vebono 2016                   </td></tr>
+<tr><td>729</td><td>ABVE17</td><td>Vebono 2017                   </td></tr>
+<tr><td>729</td><td>ABVI13</td><td>Abono Intereses Vebono 2013   </td></tr>
+<tr><td>729</td><td>ABVI14</td><td>Abono Intereses Vebono 2014   </td></tr>
+<tr><td>729</td><td>ABVI15</td><td>Abono Intereses Vebono 2015   </td></tr>
+<tr><td>729</td><td>CGBONO</td><td>Compra Bonos                  </td></tr>
+<tr><td>729</td><td>CMBONO</td><td>Comision Bonos                </td></tr>
+<tr><td>729</td><td>CMCUS </td><td>Operaciones Bonos             </td></tr>
+<tr><td>729</td><td>CMCUST</td><td>Comision Custodia Tit. Val.   </td></tr>
+<tr><td>729</td><td>CMCV15</td><td>Comision Vto.Capital Tit. Val.</td></tr>
+<tr><td>729</td><td>CMVE15</td><td>Comision Intereses Tit. Val.  </td></tr>
+<tr><td>729</td><td>MCVE15</td><td>Operaciones Bonos             </td></tr>
+<tr><td>729</td><td>RVCGBO</td><td>Reversa Compra Bonos          </td></tr>
+<tr><td>730</td><td>ABOCAJ</td><td>Abono Intereses Caja de Ahorro</td></tr>
+<tr><td>730</td><td>ABOFID</td><td>Operaciones de Fideicomiso    </td></tr>
+<tr><td>730</td><td>ABONOM</td><td>Abono Nomina Empresa          </td></tr>
+<tr><td>730</td><td>ABOREC</td><td>Abono por Reclamo             </td></tr>
+<tr><td>730</td><td>ABOTIK</td><td>Abono Cestaticket Socialista  </td></tr>
+<tr><td>730</td><td>BNFABO</td><td>Abono Beneficio Social        </td></tr>
+<tr><td>730</td><td>BNFABR</td><td>Abono Retroactivo Benef.Social</td></tr>
+<tr><td>730</td><td>BNFCRG</td><td>Cargo Beneficio Social        </td></tr>
+<tr><td>730</td><td>COMISI</td><td>Comision Nomina Empresa       </td></tr>
+<tr><td>730</td><td>CRGCAJ</td><td>Cargo Intereses Caja Ahorros  </td></tr>
+<tr><td>730</td><td>CRGFID</td><td>Operaciones de Fideicomiso    </td></tr>
+<tr><td>730</td><td>CRGNOM</td><td>Cargo Nomina Empresa          </td></tr>
+<tr><td>730</td><td>CRGTIK</td><td>Abono Cestaticket Socialista  </td></tr>
+<tr><td>730</td><td>RABONO</td><td>Reverso Abono Nomina Empresa  </td></tr>
+<tr><td>730</td><td>RCRGNO</td><td>Reverso Cargo Nomina Empresa  </td></tr>
+<tr><td>730</td><td>REVABO</td><td>Rev.Abono Nomina Empresa      </td></tr>
+<tr><td>730</td><td>REVCRG</td><td>Rev.Cargo Nomina Empresa      </td></tr>
+<tr><td>731</td><td>ABOCOM</td><td>Abono Comercio por Tarjeta Cre</td></tr>
+<tr><td>731</td><td>ABOREG</td><td>Abono Comercio por Tarjeta Cre</td></tr>
+<tr><td>731</td><td>COBCOM</td><td>Cobra Comision al Comercio    </td></tr>
+<tr><td>731</td><td>COBCOR</td><td>Cobra Comision al Comercio    </td></tr>
+<tr><td>731</td><td>COBIMP</td><td>Cargo por I.S.l.R. POS        </td></tr>
+<tr><td>731</td><td>REVABO</td><td>Abono Comercio por Tarjeta Cre</td></tr>
+<tr><td>731</td><td>REVCOM</td><td>Cobra Comision al Comercio    </td></tr>
+<tr><td>731</td><td>REVIMP</td><td>Cargo por I.S.l.R. POS        </td></tr>
+<tr><td>732</td><td>ABAPTA</td><td>Abono Comercio por Tarjeta APT</td></tr>
+<tr><td>732</td><td>ABCMRC</td><td>Abono Comercio Reclamos       </td></tr>
+<tr><td>732</td><td>ABOCMP</td><td>Abono Comercio Tarjeta Privada</td></tr>
+<tr><td>732</td><td>ABOCOM</td><td>Abono Comercio por Tarjeta Deb</td></tr>
+<tr><td>732</td><td>ABOREG</td><td>Abono Comercio por Tarjeta Cre</td></tr>
+<tr><td>732</td><td>CBIMPM</td><td>Cargo Impuestos Municipales   </td></tr>
+<tr><td>732</td><td>COBCOM</td><td>Cobra Comision al Comercio    </td></tr>
+<tr><td>732</td><td>COBCOR</td><td>Cobra Comision al Comercio    </td></tr>
+<tr><td>732</td><td>COBIMP</td><td>Cargo por I.S.l.R. POS        </td></tr>
+<tr><td>732</td><td>REVABC</td><td>Abono Comercio por Tarjeta Deb</td></tr>
+<tr><td>732</td><td>REVABO</td><td>Abono Comercio por Tarjeta Deb</td></tr>
+<tr><td>732</td><td>REVABP</td><td>Abono de Comercio Punto de Ven</td></tr>
+<tr><td>732</td><td>REVAMP</td><td>Rev.Abono Comercio Tarj.Priv. </td></tr>
+<tr><td>732</td><td>REVCMP</td><td>Rev.Abono Comercio Tarj.Priv. </td></tr>
+<tr><td>732</td><td>REVCOB</td><td>Rev.Cobra Comision al Comercio</td></tr>
+<tr><td>732</td><td>REVCOM</td><td>Rev.Cobra Comision al Comercio</td></tr>
+<tr><td>732</td><td>REVIMP</td><td>Rever.Cargo por I.S.l.R. POS  </td></tr>
+<tr><td>732</td><td>RVCBCO</td><td>Rev.Cobra Comision al Comercio</td></tr>
+<tr><td>734</td><td>COBPTM</td><td>Pago Ptm. de Acciones OPA 5   </td></tr>
+<tr><td>734</td><td>PAGACC</td><td>Pago Vta de Acciones OPA 5    </td></tr>
+<tr><td>735</td><td>VIAT01</td><td>Abono viaticos empleados      </td></tr>
+<tr><td>736</td><td>ABODIP</td><td>Abono Domiciliacion           </td></tr>
+<tr><td>736</td><td>ABODOM</td><td>Abono Domiciliacion           </td></tr>
+<tr><td>736</td><td>ABOPIP</td><td>Abono Pago IPTOTE             </td></tr>
+<tr><td>736</td><td>ABOTIP</td><td>Abono Domicilia TOTENETWORK   </td></tr>
+<tr><td>736</td><td>ABPPIP</td><td>Pago Pote Premios INH         </td></tr>
+<tr><td>736</td><td>CDIRDO</td><td>Cargo Domiciliacion DIRECTV   </td></tr>
+<tr><td>736</td><td>CGPPIP</td><td>Cargo Pago Premios Pote INH   </td></tr>
+<tr><td>736</td><td>CGRDIP</td><td>Cargo Domiciliacion           </td></tr>
+<tr><td>736</td><td>CGRDOM</td><td>Cargo Domiciliacion           </td></tr>
+<tr><td>736</td><td>CGRTIP</td><td>Cargo Domiciliacion           </td></tr>
+<tr><td>736</td><td>COMISI</td><td>Comision Servicio Recaudacion </td></tr>
+<tr><td>736</td><td>CRCGIP</td><td>Operaciones Domiciliacion     </td></tr>
+<tr><td>736</td><td>CRGDOM</td><td>Operaciones Domiciliacion     </td></tr>
+<tr><td>736</td><td>CRGPIP</td><td>Cargo Pago IPTOTE             </td></tr>
+<tr><td>736</td><td>DIRDOM</td><td>Abono Domicializacion DIRECTV </td></tr>
+<tr><td>736</td><td>REVCOM</td><td>Rev.Comis.Servicio Recaudacion</td></tr>
+<tr><td>737</td><td>ABDOED</td><td>Abono Domiciliacion EDI       </td></tr>
+<tr><td>737</td><td>ABOEDI</td><td>Abono Operaciones EDI         </td></tr>
+<tr><td>737</td><td>ALTTRN</td><td>COSTO TRASF. ALTO VALOR - LBTR</td></tr>
+<tr><td>737</td><td>CGDOED</td><td>Cargo Domiciliacion EDI       </td></tr>
+<tr><td>737</td><td>COMISI</td><td>Comision Tranferencias EDI    </td></tr>
+<tr><td>737</td><td>CRGEDI</td><td>Cargo Operaciones EDI         </td></tr>
+<tr><td>738</td><td>ABONO </td><td>AB. CANC. CTAS MISION ROBINSON</td></tr>
+<tr><td>738</td><td>CARGO </td><td>CG. CANC. CTAS MISION ROBINSON</td></tr>
+<tr><td>739</td><td>ABIVSS</td><td>Abono Pension IVSS            </td></tr>
+<tr><td>739</td><td>BNCBNC</td><td>Rev. Abono Reclamo Cajeros    </td></tr>
+<tr><td>739</td><td>BNCPOS</td><td>Rev. Abono Reclamo BNC a POS  </td></tr>
+<tr><td>739</td><td>CGIVSS</td><td>Cargo Pension IVSS            </td></tr>
+<tr><td>739</td><td>ONRTDD</td><td>Carg.ONR EN TRAMITES TDD      </td></tr>
+<tr><td>739</td><td>REIIVS</td><td>Pago Pension IVSS             </td></tr>
+<tr><td>739</td><td>REINIV</td><td>Rev.Ints. mensual IVSS        </td></tr>
+<tr><td>739</td><td>REIVSS</td><td>Reint.IVSS - Sin Mov. >90 Dias</td></tr>
+<tr><td>739</td><td>RRECNP</td><td>Reverso Abono por Reclamo     </td></tr>
+<tr><td>739</td><td>RVREIV</td><td>Rev.Rein.IVSS-Sin Mov.>90 Dias</td></tr>
+<tr><td>739</td><td>SUIH7B</td><td>Rev. Abono Reclamo Suiche7b   </td></tr>
+<tr><td>740</td><td>CGBNP2</td><td>Compra Bono PDVSA 2022        </td></tr>
+<tr><td>740</td><td>CGBNPV</td><td>Compra Bono PDVSA 2017        </td></tr>
+<tr><td>740</td><td>CGBNS1</td><td>Compra Bono Sob.Int. 2031     </td></tr>
+<tr><td>740</td><td>CGBNS2</td><td>Compra Bono Soberano 2026     </td></tr>
+<tr><td>740</td><td>CGBNSB</td><td>Compra Bono Soberano 2022     </td></tr>
+<tr><td>740</td><td>CGTIVA</td><td>Compra Titulos Valores        </td></tr>
+<tr><td>740</td><td>CMBNP2</td><td>Comision Bono PDVSA 2022      </td></tr>
+<tr><td>740</td><td>CMBNPV</td><td>Comision Bono PDVSA 2017      </td></tr>
+<tr><td>740</td><td>CMBNS1</td><td>Comision Bono Sob.Int. 2031   </td></tr>
+<tr><td>740</td><td>CMBNS2</td><td>Comision Bono Soberado 2026   </td></tr>
+<tr><td>740</td><td>CMBNSB</td><td>Comision Bono Soberado 2022   </td></tr>
+<tr><td>740</td><td>CMTIVA</td><td>Comision Titulos Valores      </td></tr>
+<tr><td>740</td><td>RETIVA</td><td>Comision Recompra Tit. Valores</td></tr>
+<tr><td>740</td><td>RVCGTI</td><td>Reverso Compra Titulos Valores</td></tr>
+<tr><td>740</td><td>RVCMTI</td><td>Rev. Comision Titulos Valores </td></tr>
+<tr><td>741</td><td>CARGO </td><td>Comisio Operaciones Alto Valor</td></tr>
+<tr><td>741</td><td>COMCHE</td><td>COSTO CHEQUE ALTO VALOR - UAP </td></tr>
+<tr><td>741</td><td>COMLBT</td><td>COSTO TRASF. ALTO VALOR - LBTR</td></tr>
+<tr><td>741</td><td>RVCMCH</td><td>COSTO CHEQUE ALTO VALOR - UAP </td></tr>
+<tr><td>742</td><td>ABONO </td><td>Tranf. Fondos Cuentas Dolares </td></tr>
+<tr><td>742</td><td>ABONOD</td><td>Abono Traspasa Dolares        </td></tr>
+<tr><td>742</td><td>ABONOS</td><td>Tranf. Fondos Cuentas Dolares </td></tr>
+<tr><td>742</td><td>ABONOT</td><td>Tranf. Fondos Cuentas Dolares </td></tr>
+<tr><td>742</td><td>ABOVIA</td><td>ABONO VIATICOS                </td></tr>
+<tr><td>742</td><td>CARGO </td><td>Consumo tarjeta de credito    </td></tr>
+<tr><td>742</td><td>CARGOD</td><td>Cargo Traspasa Dolares        </td></tr>
+<tr><td>742</td><td>CARGOE</td><td>Cargo Traspasa Euros          </td></tr>
+<tr><td>742</td><td>CARGOT</td><td>Cargo Tranf. Internacional    </td></tr>
+<tr><td>742</td><td>CARGOV</td><td>Cargo Tranf. Internacional    </td></tr>
+<tr><td>742</td><td>CGTFCM</td><td>Comision Transf.Internacional </td></tr>
+<tr><td>742</td><td>CGTRSI</td><td>Cargo Adjudicación Sicad      </td></tr>
+<tr><td>742</td><td>CGTRSM</td><td>Cargo Adjudicación Simadi     </td></tr>
+<tr><td>742</td><td>CGVTSI</td><td>Cargo Comision Venta Sicad    </td></tr>
+<tr><td>742</td><td>CMTFSI</td><td>Comision Tranferen.Orden Sicad</td></tr>
+<tr><td>742</td><td>CMTRS2</td><td>Comision Tramites Orden Sicad </td></tr>
+<tr><td>742</td><td>CMTRSI</td><td>Comision Tramites Orden Sicad </td></tr>
+<tr><td>742</td><td>CMTRSM</td><td>Comision Tramites Orden Simadi</td></tr>
+<tr><td>742</td><td>CRGVIA</td><td>Cargo VIATICOS                </td></tr>
+<tr><td>742</td><td>CRGVTA</td><td>Cargo Venta Divisas Sicad 2   </td></tr>
+<tr><td>742</td><td>RVABON</td><td>Rev.Tranf. Fond Ctas Dolares  </td></tr>
+<tr><td>742</td><td>RVCMSI</td><td>Rev.Comis.Tramites Orden Sicad</td></tr>
+<tr><td>742</td><td>RVTFSI</td><td>Rev.Comi.Tranferen.Orden Sicad</td></tr>
+<tr><td>742</td><td>RVTRS2</td><td>Rev.Comision Adj. Sicad       </td></tr>
+<tr><td>742</td><td>RVTRSI</td><td>Rev.Cargo Adjudicación Sicad  </td></tr>
+<tr><td>742</td><td>VTASIC</td><td>Abono Venta Divisas Sicad 2   </td></tr>
+<tr><td>743</td><td>ABONO </td><td>Abono pago de Facturas        </td></tr>
+<tr><td>745</td><td>ABONO </td><td>Tranf. Fondos Cuentas Dolares </td></tr>
+<tr><td>745</td><td>CGTRSI</td><td>Cargo Adjudicación Simadi     </td></tr>
+<tr><td>745</td><td>CGVTSI</td><td>Cargo Comision Venta Simadi   </td></tr>
+<tr><td>745</td><td>CMTRSI</td><td>Comision Tramites Orden Simadi</td></tr>
+<tr><td>745</td><td>CRGVTA</td><td>Cargo Venta Divisas Simadi    </td></tr>
+<tr><td>745</td><td>VTASIC</td><td>Abono Venta Divisas Simadi    </td></tr>
+<tr><td>746</td><td>ABONO </td><td>Abono Pago Bonificacion       </td></tr>
+<tr><td>746</td><td>CARGO </td><td>Cargo Pago Bonificacion       </td></tr>
+<tr><td>747</td><td>ABONO </td><td>Abono Pago Liquidacion        </td></tr>
+<tr><td>747</td><td>CARGO </td><td>Cargo Pago Liquidacion        </td></tr>
+<tr><td>749</td><td>EDOCTA</td><td>Comisión Envio Edo. Cta.      </td></tr>
+<tr><td>750</td><td>COMSAL</td><td>Comisión Mantenimiento Cuenta </td></tr>
+<tr><td>750</td><td>COMSAN</td><td>Comisión Pago Sanitas         </td></tr>
+<tr><td>750</td><td>COMSAV</td><td>Comisión Compra Vales Sanitas </td></tr>
+<tr><td>750</td><td>RVCMSL</td><td>Rev.Comisión Mantenimiento Cta</td></tr>
+<tr><td>751</td><td>COMBNC</td><td>Comisión Retiro ATM           </td></tr>
+<tr><td>751</td><td>COMSAL</td><td>Comisión Consulta ATM         </td></tr>
+<tr><td>751</td><td>P2CBNC</td><td>Comisión Pago Movil           </td></tr>
+<tr><td>751</td><td>P2PCRO</td><td>Comisión Pago Movil           </td></tr>
+<tr><td>751</td><td>P2PCRR</td><td>Rev.Comisión Pago Movil       </td></tr>
+<tr><td>751</td><td>P2PCSO</td><td>Comisión Pago Movil           </td></tr>
+<tr><td>751</td><td>REVCOM</td><td>Reverso Comision ATM          </td></tr>
+<tr><td>751</td><td>REVERS</td><td>Comision Cajero/P2P           </td></tr>
+<tr><td>752</td><td>ABONO </td><td>Tranf. Fondos Cuentas Dolares </td></tr>
+<tr><td>752</td><td>ABTRDI</td><td>Abono Venta DICOM             </td></tr>
+<tr><td>752</td><td>CARGO </td><td>Tranf. Fondos Cuentas Dolares </td></tr>
+<tr><td>752</td><td>CGTRDI</td><td>Cargo Adjudicación DICOM      </td></tr>
+<tr><td>752</td><td>CMTRDI</td><td>Comision Tramites Orden DICOM </td></tr>
+<tr><td>752</td><td>COMISI</td><td>COMISION COMPRA INTERNACIONAL </td></tr>
+<tr><td>752</td><td>COMPRA</td><td>COMPRA INTERNACIONAL TARJETA  </td></tr>
+<tr><td>752</td><td>INTCOM</td><td>Inter.Com.Tramites Orden DICOM</td></tr>
+<tr><td>752</td><td>INTCRG</td><td>Inter.Cargo Adjudicación DICOM</td></tr>
+<tr><td>752</td><td>RVCGTR</td><td>Rev.Cargo Adjudicación DICOM  </td></tr>
+<tr><td>752</td><td>RVCMPR</td><td>RV.COMPRA INTERNACIONAL TARJET</td></tr>
+<tr><td>752</td><td>RVCMTR</td><td>Rev.Com. Tramites Orden DICOM </td></tr>
+<tr><td>753</td><td>COMPOS</td><td>Cobra Comision Uso POS        </td></tr>
+<tr><td>754</td><td>COMISI</td><td>Comision Plan Ahorro en Oro   </td></tr>
+<tr><td>754</td><td>PLAHOR</td><td>Cargo Plan Ahorro en Oro      </td></tr>
+<tr><td>754</td><td>RVCMSI</td><td>RevComision Plan Ahorro en Oro</td></tr>
+<tr><td>754</td><td>RVPLOR</td><td>Rv.Cargo Plan Ahorro en Oro   </td></tr>
+<tr><td>755</td><td>ABOCAS</td><td>Ab.Bolsa de Valores de Caracas</td></tr>
+<tr><td>755</td><td>CRGCAS</td><td>Cg.Bolsa de Valores de Caracas</td></tr>
+<tr><td>761</td><td>      </td><td>Chq.Dev. por Compensación     </td></tr>
+<tr><td>761</td><td>REVERS</td><td>Reversa Cheq.Devuelto por Comp</td></tr>
+<tr><td>762</td><td>      </td><td>Débito Chque Devuelto a Cargo </td></tr>
+<tr><td>764</td><td>      </td><td>Cheque Pagado por Compensación</td></tr>
+<tr><td>764</td><td>REVERS</td><td>Rev.Cheq Pag por Compensación </td></tr>
+<tr><td>774</td><td>CC    </td><td>Comisión por Corte de cuenta  </td></tr>
+<tr><td>774</td><td>CH    </td><td>Comisión Anulacion de Chequera</td></tr>
+<tr><td>774</td><td>CQ    </td><td>Comisión Anulacion de Chequera</td></tr>
+<tr><td>774</td><td>DC    </td><td>Comisión Cheque Dvlto Compensa</td></tr>
+<tr><td>774</td><td>DV    </td><td>Comisión Cheque Dvlto Taquilla</td></tr>
+<tr><td>774</td><td>E2    </td><td>Comisión Chequeras de 25      </td></tr>
+<tr><td>774</td><td>E5    </td><td>Comisión Chequeras de 50      </td></tr>
+<tr><td>776</td><td>ABONO </td><td>ABONO EMISION CHEQUERAS       </td></tr>
+<tr><td>776</td><td>CARGO </td><td>CARGO EMISION CHEQUERAS       </td></tr>
+<tr><td>777</td><td>TRASPA</td><td>Transferecia Saldo TDC        </td></tr>
+<tr><td>799</td><td>RECVEF</td><td>Reconversion Bs. Fuertes      </td></tr>
+<tr><td>799</td><td>RECVES</td><td>Reconversion Bs. Soberano     </td></tr>
+<tr><td>821</td><td>      </td><td>Depósito                      </td></tr>
+<tr><td>840</td><td>      </td><td>Depósito                      </td></tr>
+<tr><td>841</td><td>      </td><td>Depósito horario especial efec</td></tr>
+<tr><td>842</td><td>      </td><td>Dep.horario Especial cheque   </td></tr>
+<tr><td>843</td><td>      </td><td>Depósito con libreta          </td></tr>
+<tr><td>844</td><td>      </td><td>Dep.horario esp.efec c/libreta</td></tr>
+<tr><td>845</td><td>      </td><td>Dep.horario esp.cheq c/libreta</td></tr>
+<tr><td>893</td><td>      </td><td>Depósito Impuestos Municipales</td></tr>
+<tr><td>894</td><td>      </td><td>Depósito                      </td></tr>
+<tr><td>899</td><td>ABOITF</td><td>Cobro Aut.ITF                 </td></tr>
+<tr><td>899</td><td>CIBITF</td><td>Cobro de Impuesto             </td></tr>
+<tr><td>899</td><td>CIDBEF</td><td>ITF en efectivo               </td></tr>
+<tr><td>899</td><td>COBCOM</td><td>Cobro de Impuesto             </td></tr>
+<tr><td>899</td><td>COBITF</td><td>Cobro Aut.ITF                 </td></tr>
+<tr><td>899</td><td>REIITF</td><td>Reintegra ITF                 </td></tr>
+<tr><td>899</td><td>REVIDB</td><td>Reverso Cobro Aut.IDB         </td></tr>
+<tr><td>899</td><td>REVITF</td><td>Rev. Cobro de ITF             </td></tr>
+<tr><td>899</td><td>RIDBEF</td><td>Debito Bancario en efectivo   </td></tr>
+</table></body></html>
